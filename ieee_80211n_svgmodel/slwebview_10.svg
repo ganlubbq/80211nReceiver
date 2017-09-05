@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<?xml-stylesheet href='./slwebview.css' type='text/css' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' onload='initialize(evt)' zoomAndPan='disable' id='canvas.ieee_80211n/IQ mapping  + codifica/BCH  Encoding' class='canvas' display='inline' x='0' y='0' height='95%' width='100%' preserveAspectRatio='xMinYMin meet' original_viewBox='20 24 455 82' viewBox='20 24 455 82'> 
+<script type='text/javascript' xlink:href='./slwebview.js' />
+<script type='text/javascript' xlink:href='./id_mapping.js' />
+  <title id='title.ieee_80211n/IQ mapping  + codifica/BCH  Encoding'>BCH  Encoding</title>
+<rect id='background.ieee_80211n/IQ mapping  + codifica/BCH  Encoding' x='-4071' y='-4067' width='8612' height='8235' pointer-events='none' fill='rgb(100%,100%,100%) ' />
+<g display='none' id='prop.ieee_80211n/IQ mapping  + codifica/BCH  Encoding/Out1' class='proptable' pointer-events='none' extent_Height='133.2' extent_Width='143' preferred_X='475' preferred_Y='58'>
+  <rect x='0' y='0' width='143' height='133.2' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port</text>
+  <text stroke='none' x='88' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>1</text>
+  <rect x='0' y='16.8' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconDisplay</text>
+  <text stroke='none' x='88' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port number</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UseBusObject</text>
+  <text stroke='none' x='88' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='34.4' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='88' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusOutputAsStruct</text>
+  <text stroke='none' x='88' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='52' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='57.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>PortDimensions</text>
+  <text stroke='none' x='88' y='57.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='66.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VarSizeSig</text>
+  <text stroke='none' x='88' y='66.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit</text>
+  <rect x='0' y='69.6' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='75.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='88' y='75.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='84.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='88' y='84.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='87.2' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='88' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='101.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='88' y='101.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: auto</text>
+  <rect x='0' y='104.8' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='110.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='88' y='110.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='119.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SignalType</text>
+  <text stroke='none' x='88' y='119.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='122.4' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='128.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='88' y='128.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='0' width='143' height='133.2' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/IQ mapping  + codifica/BCH  Encoding/Out1' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/IQ mapping  + codifica/BCH  Encoding/Out1'>Out1</title>
+<g><rect x='440' y='53' width='30' height='14' rx='6.77419' ry='6.77419' stroke='none' fill='rgb(100%,100%,100%)' />
+<rect x='440' y='53' width='30' height='14' rx='6.77419' ry='6.77419' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+<g><text stroke='none' x='444' y='77' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Out1</text>
+</g>
+</g>
+<g><g><text stroke='none' x='452' y='63.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_93)' font-family='Helvetica'>1</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.ieee_80211n/IQ mapping  + codifica/BCH  Encoding/BCH Encoder' class='proptable' pointer-events='none' extent_Height='54' extent_Width='83' preferred_X='280' preferred_Y='34'>
+  <rect x='0' y='0' width='83' height='54' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>n</text>
+  <text stroke='none' x='67' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>8</text>
+  <rect x='0' y='16.8' width='83' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>k</text>
+  <text stroke='none' x='67' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>4</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>specPrimPoly</text>
+  <text stroke='none' x='67' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='34.4' width='83' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>specGenPoly</text>
+  <text stroke='none' x='67' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>specPuncture</text>
+  <text stroke='none' x='67' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='0' width='83' height='54' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/IQ mapping  + codifica/BCH  Encoding/BCH Encoder' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/IQ mapping  + codifica/BCH  Encoding/BCH Encoder'>BCH Encoder</title>
+<g><rect x='155' y='29' width='120' height='62' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='184' y='101' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BCH Encoder</text>
+</g>
+</g>
+<g><line x1='187' y1='43' x2='198' y2='43' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='198' y1='43' x2='198' y2='38' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='198' y1='38' x2='187' y2='38' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='187' y1='38' x2='187' y2='49' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='187' y1='49' x2='198' y2='49' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='198' y1='49' x2='198' y2='38' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='198' y1='38' x2='198' y2='43' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='198' y1='43' x2='198' y2='42' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='198' y1='42' x2='204' y2='43' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='204' y1='43' x2='198' y2='45' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='198' y1='45' x2='221' y2='45' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='221' y1='45' x2='221' y2='47' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='221' y1='47' x2='232' y2='43' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='232' y1='43' x2='221' y2='39' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='221' y1='39' x2='221' y2='42' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='221' y1='42' x2='198' y2='42' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='198' y1='42' x2='221' y2='42' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='221' y1='42' x2='221' y2='39' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='221' y1='39' x2='232' y2='43' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='232' y1='43' x2='232' y2='35' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='232' y1='35' x2='244' y2='35' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='244' y1='35' x2='244' y2='52' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='244' y1='52' x2='232' y2='52' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='232' y1='52' x2='232' y2='40' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='232' y1='40' x2='244' y2='40' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='244' y1='40' x2='232' y2='40' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='232' y1='40' x2='232' y2='46' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<line x1='232' y1='46' x2='244' y2='46' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_94)' />
+<g></g>
+<g><text stroke='none' x='184' y='68.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_94)' font-family='Helvetica'>BCH Encoder</text>
+</g>
+</g>
+<g><rect x='155' y='29' width='120' height='62' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.ieee_80211n/IQ mapping  + codifica/BCH  Encoding/In1' class='proptable' pointer-events='none' extent_Height='150.8' extent_Width='191' preferred_X='60' preferred_Y='58'>
+  <rect x='0' y='0' width='191' height='150.8' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port</text>
+  <text stroke='none' x='136' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>1</text>
+  <rect x='0' y='16.8' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconDisplay</text>
+  <text stroke='none' x='136' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port number</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UseBusObject</text>
+  <text stroke='none' x='136' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='34.4' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='136' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusOutputAsStruct</text>
+  <text stroke='none' x='136' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='52' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='57.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>PortDimensions</text>
+  <text stroke='none' x='136' y='57.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='66.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VarSizeSig</text>
+  <text stroke='none' x='136' y='66.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit</text>
+  <rect x='0' y='69.6' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='75.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='136' y='75.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='84.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='136' y='84.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='87.2' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='136' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='101.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='136' y='101.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: auto</text>
+  <rect x='0' y='104.8' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='110.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='136' y='110.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='119.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SignalType</text>
+  <text stroke='none' x='136' y='119.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='122.4' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='128.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='136' y='128.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByDelayingOutsideSignal</text>
+  <text stroke='none' x='136' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='140' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='145.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByCopyingInsideSignal</text>
+  <text stroke='none' x='136' y='145.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='0' width='191' height='150.8' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/IQ mapping  + codifica/BCH  Encoding/In1' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/IQ mapping  + codifica/BCH  Encoding/In1'>In1</title>
+<g><rect x='25' y='53' width='30' height='14' rx='6.77419' ry='6.77419' stroke='none' fill='rgb(100%,100%,100%)' />
+<rect x='25' y='53' width='30' height='14' rx='6.77419' ry='6.77419' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+<g><text stroke='none' x='33' y='77' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>In1</text>
+</g>
+</g>
+<g><g><text stroke='none' x='37' y='63.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_95)' font-family='Helvetica'>1</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.ieee_80211n/IQ mapping  + codifica/BCH  Encoding/_uniq_id_190' class='proptable' pointer-events='none' extent_Height='45.2' extent_Width='148' preferred_X='445' preferred_Y='60'>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='124' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='16.8' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='124' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='124' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='34.4' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='124' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/IQ mapping  + codifica/BCH  Encoding/_uniq_id_190' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/IQ mapping  + codifica/BCH  Encoding/_uniq_id_190'>line</title>
+<line x1='275' y1='60' x2='280' y2='60' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='435' y1='60' x2='425' y2='60' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='430,55 430,65 440,60 430,55 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='278,60 280,60 425,60 427,60 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.ieee_80211n/IQ mapping  + codifica/BCH  Encoding/_uniq_id_191' class='proptable' pointer-events='none' extent_Height='45.2' extent_Width='148' preferred_X='160' preferred_Y='60'>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='124' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='16.8' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='124' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='124' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='34.4' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='124' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/IQ mapping  + codifica/BCH  Encoding/_uniq_id_191' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/IQ mapping  + codifica/BCH  Encoding/_uniq_id_191'>line</title>
+<line x1='55' y1='60' x2='60' y2='60' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='150' y1='60' x2='140' y2='60' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='145,55 145,65 155,60 145,55 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='58,60 60,60 140,60 142,60 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<defs>
+  <clipPath id='clip_rect_93'><rect x='440' y='53' width='30' height='14' /></clipPath>
+  <clipPath id='clip_rect_94'><rect x='155' y='29' width='120' height='62' /></clipPath>
+  <clipPath id='clip_rect_95'><rect x='25' y='53' width='30' height='14' /></clipPath>
+</defs>
+</svg>

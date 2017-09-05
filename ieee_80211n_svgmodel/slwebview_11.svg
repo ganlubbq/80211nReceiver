@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<?xml-stylesheet href='./slwebview.css' type='text/css' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' onload='initialize(evt)' zoomAndPan='disable' id='canvas.ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali' class='canvas' display='inline' x='0' y='0' height='95%' width='100%' preserveAspectRatio='xMinYMin meet' original_viewBox='20 23 300 84' viewBox='20 23 300 84'> 
+<script type='text/javascript' xlink:href='./slwebview.js' />
+<script type='text/javascript' xlink:href='./id_mapping.js' />
+  <title id='title.ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali'>Generazione flussi  spaziali</title>
+<rect id='background.ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali' x='-4071' y='-4068' width='8457' height='8238' pointer-events='none' fill='rgb(100%,100%,100%) ' />
+<g display='none' id='prop.ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/Out2' class='proptable' pointer-events='none' extent_Height='133.2' extent_Width='143' preferred_X='320' preferred_Y='58'>
+  <rect x='0' y='0' width='143' height='133.2' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port</text>
+  <text stroke='none' x='88' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>2</text>
+  <rect x='0' y='16.8' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconDisplay</text>
+  <text stroke='none' x='88' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port number</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UseBusObject</text>
+  <text stroke='none' x='88' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='34.4' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='88' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusOutputAsStruct</text>
+  <text stroke='none' x='88' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='52' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='57.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>PortDimensions</text>
+  <text stroke='none' x='88' y='57.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='66.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VarSizeSig</text>
+  <text stroke='none' x='88' y='66.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit</text>
+  <rect x='0' y='69.6' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='75.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='88' y='75.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='84.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='88' y='84.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='87.2' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='88' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='101.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='88' y='101.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: auto</text>
+  <rect x='0' y='104.8' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='110.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='88' y='110.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='119.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SignalType</text>
+  <text stroke='none' x='88' y='119.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='122.4' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='128.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='88' y='128.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='0' width='143' height='133.2' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/Out2' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/Out2'>Out2</title>
+<g><rect x='285' y='53' width='30' height='14' rx='6.77419' ry='6.77419' stroke='none' fill='rgb(100%,100%,100%)' />
+<rect x='285' y='53' width='30' height='14' rx='6.77419' ry='6.77419' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+<g><text stroke='none' x='289' y='77' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Out2</text>
+</g>
+</g>
+<g><g><text stroke='none' x='297' y='63.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_96)' font-family='Helvetica'>2</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/Out1' class='proptable' pointer-events='none' extent_Height='133.2' extent_Width='143' preferred_X='320' preferred_Y='38'>
+  <rect x='0' y='0' width='143' height='133.2' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port</text>
+  <text stroke='none' x='88' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>1</text>
+  <rect x='0' y='16.8' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconDisplay</text>
+  <text stroke='none' x='88' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port number</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UseBusObject</text>
+  <text stroke='none' x='88' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='34.4' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='88' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusOutputAsStruct</text>
+  <text stroke='none' x='88' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='52' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='57.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>PortDimensions</text>
+  <text stroke='none' x='88' y='57.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='66.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VarSizeSig</text>
+  <text stroke='none' x='88' y='66.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit</text>
+  <rect x='0' y='69.6' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='75.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='88' y='75.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='84.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='88' y='84.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='87.2' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='88' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='101.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='88' y='101.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: auto</text>
+  <rect x='0' y='104.8' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='110.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='88' y='110.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='119.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SignalType</text>
+  <text stroke='none' x='88' y='119.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='122.4' width='143' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='128.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='88' y='128.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='0' width='143' height='133.2' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/Out1' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/Out1'>Out1</title>
+<g><rect x='285' y='33' width='30' height='14' rx='6.77419' ry='6.77419' stroke='none' fill='rgb(100%,100%,100%)' />
+<rect x='285' y='33' width='30' height='14' rx='6.77419' ry='6.77419' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+<g><text stroke='none' x='289' y='57' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Out1</text>
+</g>
+</g>
+<g><g><text stroke='none' x='297' y='43.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_97)' font-family='Helvetica'>1</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/spatial stream s(iss)' class='proptable' pointer-events='none' extent_Height='36.4' extent_Width='106' preferred_X='220' preferred_Y='33'>
+  <rect x='0' y='0' width='106' height='36.4' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>rowsOrCols</text>
+  <text stroke='none' x='59' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Rows</text>
+  <rect x='0' y='16.8' width='106' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>idxCellArray</text>
+  <text stroke='none' x='59' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>{ 1:4, 5:8 }</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>idxErrMode</text>
+  <text stroke='none' x='59' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Clip Index</text>
+  <rect x='0' y='0' width='106' height='36.4' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/spatial stream s(iss)' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/spatial stream s(iss)'>spatial stream s(iss)</title>
+<g><rect x='135' y='28' width='80' height='44' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='160' y='82' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>spatial</text>
+</g>
+<g><text stroke='none' x='159.5' y='92' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>stream</text>
+</g>
+<g><text stroke='none' x='163' y='102' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>s(iss)</text>
+</g>
+</g>
+<g><g><text stroke='none' x='161' y='48.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_98)' font-family='Helvetica'>Select</text>
+</g>
+<g><text stroke='none' x='162.5' y='58.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_98)' font-family='Helvetica'>Rows</text>
+</g>
+</g>
+<g><rect x='135' y='28' width='80' height='44' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/In1' class='proptable' pointer-events='none' extent_Height='150.8' extent_Width='191' preferred_X='60' preferred_Y='48'>
+  <rect x='0' y='0' width='191' height='150.8' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port</text>
+  <text stroke='none' x='136' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>1</text>
+  <rect x='0' y='16.8' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconDisplay</text>
+  <text stroke='none' x='136' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port number</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UseBusObject</text>
+  <text stroke='none' x='136' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='34.4' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='136' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusOutputAsStruct</text>
+  <text stroke='none' x='136' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='52' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='57.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>PortDimensions</text>
+  <text stroke='none' x='136' y='57.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='66.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VarSizeSig</text>
+  <text stroke='none' x='136' y='66.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit</text>
+  <rect x='0' y='69.6' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='75.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='136' y='75.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='84.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='136' y='84.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='87.2' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='136' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='101.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='136' y='101.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: auto</text>
+  <rect x='0' y='104.8' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='110.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='136' y='110.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='119.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SignalType</text>
+  <text stroke='none' x='136' y='119.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='122.4' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='128.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='136' y='128.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByDelayingOutsideSignal</text>
+  <text stroke='none' x='136' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='140' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='145.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByCopyingInsideSignal</text>
+  <text stroke='none' x='136' y='145.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='0' width='191' height='150.8' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/In1' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/In1'>In1</title>
+<g><rect x='25' y='43' width='30' height='14' rx='6.77419' ry='6.77419' stroke='none' fill='rgb(100%,100%,100%)' />
+<rect x='25' y='43' width='30' height='14' rx='6.77419' ry='6.77419' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+<g><text stroke='none' x='33' y='67' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>In1</text>
+</g>
+</g>
+<g><g><text stroke='none' x='37' y='53.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_99)' font-family='Helvetica'>1</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/_uniq_id_192' class='proptable' pointer-events='none' extent_Height='45.2' extent_Width='148' preferred_X='290' preferred_Y='40'>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='124' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='16.8' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='124' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='124' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='34.4' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='124' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/_uniq_id_192' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/_uniq_id_192'>line</title>
+<line x1='215' y1='40' x2='220' y2='40' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='280' y1='40' x2='270' y2='40' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='275,35 275,45 285,40 275,35 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='218,40 220,40 270,40 272,40 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/_uniq_id_193' class='proptable' pointer-events='none' extent_Height='45.2' extent_Width='148' preferred_X='290' preferred_Y='60'>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='124' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='16.8' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='124' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='124' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='34.4' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='124' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/_uniq_id_193' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/_uniq_id_193'>line</title>
+<line x1='215' y1='60' x2='220' y2='60' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='280' y1='60' x2='270' y2='60' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='275,55 275,65 285,60 275,55 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='218,60 220,60 270,60 272,60 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/_uniq_id_194' class='proptable' pointer-events='none' extent_Height='45.2' extent_Width='148' preferred_X='140' preferred_Y='50'>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='124' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='16.8' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='124' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='124' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='34.4' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='124' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/_uniq_id_194' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali/_uniq_id_194'>line</title>
+<line x1='55' y1='50' x2='60' y2='50' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='130' y1='50' x2='120' y2='50' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='125,45 125,55 135,50 125,45 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='58,50 60,50 120,50 122,50 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<defs>
+  <clipPath id='clip_rect_96'><rect x='285' y='53' width='30' height='14' /></clipPath>
+  <clipPath id='clip_rect_97'><rect x='285' y='33' width='30' height='14' /></clipPath>
+  <clipPath id='clip_rect_98'><rect x='135' y='28' width='80' height='44' /></clipPath>
+  <clipPath id='clip_rect_99'><rect x='25' y='43' width='30' height='14' /></clipPath>
+</defs>
+</svg>

@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel= "stylesheet" href="explorer_files/dtree.css" type="text/css" />
+    <script type="text/javascript" src="explorer_files/dtree.js"></script>
+    <script type="text/javascript" src="slwebview.js"></script>
+    <script type="text/javascript" src="id_mapping.js"></script>
+    <title>Simulink Web View</title>
+  </head>
+  <body leftmargin="3"  topmargin="0" marginwidth="3" marginheight="3">
+    <script type="text/javascript">
+<!--
+var explorer = new dTree('explorer');
+explorer.add(0,-1,"Simulink Root","javascript:toggleExpose();","Simulink Root","ieee_80211n_slwebview_model");
+explorer.add(1,0,"ieee_80211n","javascript:changeSysByName('ieee_80211n',1);","ieee_80211n","ieee_80211n_slwebview_model","explorer_files/SimulinkModelIcon.gif","explorer_files/SimulinkModelIcon.gif",1);
+explorer.add(2,1,"Decoder","javascript:changeSysByName('ieee_80211n/Decoder',1);","ieee_80211n/Decoder","ieee_80211n_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(3,1,"IQ demapping","javascript:changeSysByName('ieee_80211n/IQ demapping',1);","ieee_80211n/IQ demapping","ieee_80211n_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(4,1,"IQ mapping  + codifica","javascript:changeSysByName('ieee_80211n/IQ mapping  + codifica',1);","ieee_80211n/IQ mapping  + codifica","ieee_80211n_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(5,1,"Performance Analysis","javascript:changeSysByName('ieee_80211n/Performance Analysis',1);","ieee_80211n/Performance Analysis","ieee_80211n_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(6,1,"STBC + OFDM","javascript:changeSysByName('ieee_80211n/STBC + OFDM',1);","ieee_80211n/STBC + OFDM","ieee_80211n_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(7,2,"Deinterleaver 2","javascript:changeSysByName('ieee_80211n/Decoder/Deinterleaver 2',1);","ieee_80211n/Decoder/Deinterleaver 2","ieee_80211n_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(8,2,"Deinterleaver1","javascript:changeSysByName('ieee_80211n/Decoder/Deinterleaver1',1);","ieee_80211n/Decoder/Deinterleaver1","ieee_80211n_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(9,3,"Combiner + FFT","javascript:changeSysByName('ieee_80211n/IQ demapping/Combiner + FFT',1);","ieee_80211n/IQ demapping/Combiner + FFT","ieee_80211n_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(10,4,"BCH  Encoding","javascript:changeSysByName('ieee_80211n/IQ mapping  + codifica/BCH  Encoding',1);","ieee_80211n/IQ mapping  + codifica/BCH  Encoding","ieee_80211n_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(11,4,"Generazione flussi  spaziali","javascript:changeSysByName('ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali',1);","ieee_80211n/IQ mapping  + codifica/Generazione flussi  spaziali","ieee_80211n_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(12,4,"Interleaver","javascript:changeSysByName('ieee_80211n/IQ mapping  + codifica/Interleaver',1);","ieee_80211n/IQ mapping  + codifica/Interleaver","ieee_80211n_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(13,4,"Interleaver1","javascript:changeSysByName('ieee_80211n/IQ mapping  + codifica/Interleaver1',1);","ieee_80211n/IQ mapping  + codifica/Interleaver1","ieee_80211n_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(14,4,"Mapping1","javascript:changeSysByName('ieee_80211n/IQ mapping  + codifica/Mapping1',1);","ieee_80211n/IQ mapping  + codifica/Mapping1","ieee_80211n_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(15,4,"Mapping2","javascript:changeSysByName('ieee_80211n/IQ mapping  + codifica/Mapping2',1);","ieee_80211n/IQ mapping  + codifica/Mapping2","ieee_80211n_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(16,6,"OFDMtx completo t1","javascript:changeSysByName('ieee_80211n/STBC + OFDM/OFDMtx completo t1',1);","ieee_80211n/STBC + OFDM/OFDMtx completo t1","ieee_80211n_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(17,6,"OFDMtx t0","javascript:changeSysByName('ieee_80211n/STBC + OFDM/OFDMtx t0',1);","ieee_80211n/STBC + OFDM/OFDMtx t0","ieee_80211n_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+var svgState = getSvgState(gHomeSys);
+svgState.tree = explorer;
+document.write(svgState.tree);
+//-->
+    </script>
+  </body>
+</html>
+

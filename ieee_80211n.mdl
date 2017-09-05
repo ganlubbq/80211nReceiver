@@ -1,0 +1,4812 @@
+Model {
+  Name			  "ieee_80211n"
+  Version		  7.4
+  MdlSubVersion		  0
+  GraphicalInterface {
+    NumRootInports	    0
+    NumRootOutports	    0
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.620"
+    NumModelReferences	    0
+    NumTestPointedSignals   0
+  }
+  SavedCharacterEncoding  "ISO-8859-1"
+  PreLoadFcn		  "EbNo = 1; maxNumErrs = 100; maxNumBits = 1e6;"
+  SaveDefaultBlockParams  on
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  DataTypeOverride	  "UseLocalSettings"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  MaxMDLFileLineLength	  120
+  Created		  "Fri Jun 17 15:28:01 2011"
+  Creator		  "nick"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "nick"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Mon Sep  5 11:48:20 2011"
+  RTWModifiedTimeStamp	  237119329
+  ModelVersionFormat	  "1.%<AutoIncrement:620>"
+  ConfigurationManager	  "None"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "none"
+  WideLines		  off
+  ShowLineDimensions	  on
+  ShowPortDataTypes	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  SimulationMode	  "normal"
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  CovForceBlockReductionOff on
+  covSaveCumulativeToWorkspaceVar on
+  CovSaveSingleToWorkspaceVar on
+  CovCumulativeVarName	  "covCumulativeData"
+  CovCumulativeReport	  off
+  CovReportOnPause	  on
+  CovModelRefEnable	  "Off"
+  CovExternalEMLEnable	  off
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  BufferReuse		  on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      1
+      Version		      "1.6.0"
+      Array {
+	Type			"Handle"
+	Dimension		8
+	Simulink.SolverCC {
+	  $ObjectID		  2
+	  Version		  "1.6.0"
+	  StartTime		  "0.0"
+	  StopTime		  "2.076*100"
+	  AbsTol		  "auto"
+	  FixedStep		  "auto"
+	  InitialStep		  "auto"
+	  MaxNumMinSteps	  "-1"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  SolverMode		  "Auto"
+	  Solver		  "ode45"
+	  SolverName		  "ode45"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  3
+	  Version		  "1.6.0"
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  on
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "Array"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  InspectSignalLogs	  off
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  4
+	  Version		  "1.6.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    7
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    PropName		    "DisabledProps"
+	  }
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  InlineParams		  off
+	  UseIntDivNetSlope	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  off
+	  StrengthReduction	  off
+	  EnforceIntegerDowncast  on
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  ExpressionDepthLimit	  2147483647
+	  FoldNonRolledExpr	  on
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  SystemCodeInlineAuto	  off
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  UseTempVars		  off
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  OptimizeModelRefInitCode off
+	  LifeSpan		  "inf"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "Off"
+	  AccelVerboseBuild	  off
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  5
+	  Version		  "1.6.0"
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Classic"
+	  MergeDetectMultiDrivingBlocksExec "none"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  SolverPrmCheckMsg	  "warning"
+	  InheritedTsInSrcMsg	  "warning"
+	  DiscreteInheritContinuousMsg "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "Use local settings"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  SFcnCompatibilityMsg	  "none"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  EnableOverflowDetection off
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  ModelReferenceCSMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "warning"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  StrictBusMsg		  "Warning"
+	  LoggingUnavailableSignals "error"
+	  BlockIODiagnostic	  "none"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  6
+	  Version		  "1.6.0"
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdIntDivRoundTo	  "Undefined"
+	  ProdEndianess		  "Unspecified"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdHWDeviceType	  "32-bit Generic"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetShiftRightIntArith on
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetTypeEmulationWarnSuppressLevel 0
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  7
+	  Version		  "1.6.0"
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  CheckModelReferenceTargetMessage "error"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  8
+	  Version		  "1.6.0"
+	  SFSimEnableDebug	  on
+	  SFSimOverflowDetection  on
+	  SFSimEcho		  on
+	  SimBlas		  on
+	  SimCtrlC		  on
+	  SimExtrinsic		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimBuildMode		  "sf_incremental_build"
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  9
+	  Version		  "1.6.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    6
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    PropName		    "DisabledProps"
+	  }
+	  SystemTargetFile	  "grt.tlc"
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  TemplateMakefile	  "grt_default_tmf"
+	  GenerateReport	  off
+	  SaveLog		  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  ProcessScriptMode	  "Default"
+	  ConfigurationMode	  "Optimized"
+	  ConfigAtBuild		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  IncludeERTFirstTime	  off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateCodeInfo	  off
+	  RTWCompilerOptimization "Off"
+	  CheckMdlBeforeBuild	  "Off"
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      10
+	      Version		      "1.6.0"
+	      Array {
+		Type			"Cell"
+		Dimension		19
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"IgnoreTestpoints"
+		Cell			"InsertBlockDesc"
+		Cell			"SFDataObjDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"ReqsInCode"
+		PropName		"DisabledProps"
+	      }
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      IncHierarchyInIds	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      IncAutoGenComments      off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      IncDataTypeInIds	      off
+	      MangleLength	      1
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      DefineNamingRule	      "None"
+	      ParamNamingRule	      "None"
+	      SignalNamingRule	      "None"
+	      InsertBlockDesc	      off
+	      SimulinkBlockComments   on
+	      EnableCustomComments    off
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      11
+	      Version		      "1.6.0"
+	      Array {
+		Type			"Cell"
+		Dimension		17
+		Cell			"GeneratePreprocessorConditionals"
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"CombineOutputUpdateFcns"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"CPPClassGenCompliant"
+		Cell			"MultiInstanceERTCode"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportNonFinite"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		Cell			"PortableWordSizes"
+		PropName		"DisabledProps"
+	      }
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      TargetFunctionLibrary   "ANSI_C"
+	      UtilityFuncGeneration   "Auto"
+	      ERTMultiwordTypeDef     "System defined"
+	      ERTMultiwordLength      256
+	      MultiwordLength	      2048
+	      GenerateFullHeader      on
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      IsPILTarget	      off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      IncludeMdlTerminateFcn  on
+	      GeneratePreprocessorConditionals "Disable all"
+	      CombineOutputUpdateFcns off
+	      SuppressErrorStatus     off
+	      ERTFirstTimeCompliant   off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      MultiInstanceERTCode    off
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      PurelyIntegerCode	      off
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      SupportVariableSizeSignals off
+	      EnableShiftOperators    on
+	      ParenthesesLevel	      "Nominal"
+	      PortableWordSizes	      off
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    off
+	      AutosarCompliant	      off
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      GenerateASAP2	      off
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      CurrentDlgPage	      "Solver"
+      ConfigPrmDlgPosition    " [ 200, 74, 1080, 704 ] "
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSet {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    1
+  }
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    UseDisplayTextAsClickCallback off
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Concatenate
+      NumInputs		      "2"
+      ConcatenateDimension    "1"
+    }
+    Block {
+      BlockType		      Constant
+      Value		      "1"
+      VectorParams1D	      on
+      SamplingMode	      "Sample based"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeMode	      "Inherit from 'Constant value'"
+      OutDataType	      "fixdt(1,16,0)"
+      ConRadixGroup	      "Use specified scaling"
+      OutScaling	      "[]"
+      OutDataTypeStr	      "Inherit: Inherit from 'Constant value'"
+      LockScale		      off
+      SampleTime	      "inf"
+      FramePeriod	      "inf"
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeMode	      "Inherit via back propagation"
+      OutDataType	      "fixdt(1,16,0)"
+      OutScaling	      "[]"
+      OutDataTypeStr	      "Inherit: Inherit via back propagation"
+      LockScale		      off
+      ConvertRealWorld	      "Real World Value (RWV)"
+      RndMeth		      "Zero"
+      SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Display
+      Format		      "short"
+      Decimation	      "10"
+      Floating		      off
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      ForIterator
+      ResetStates	      "held"
+      IterationSource	      "internal"
+      IterationLimit	      "5"
+      ExternalIncrement	      off
+      ShowIterationPort	      on
+      IndexMode		      "One-based"
+      IterationVariableDataType	"int32"
+    }
+    Block {
+      BlockType		      FrameConversion
+      InheritSamplingMode     off
+      OutFrame		      "Frame-based"
+    }
+    Block {
+      BlockType		      Inport
+      Port		      "1"
+      UseBusObject	      off
+      BusObject		      "BusObject"
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      DataType		      "auto"
+      OutDataType	      "fixdt(1,16,0)"
+      OutScaling	      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      LatchByDelayingOutsideSignal off
+      LatchByCopyingInsideSignal off
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      MATLABFcn
+      MATLABFcn		      "sin"
+      OutputDimensions	      "-1"
+      OutputSignalType	      "auto"
+      Output1D		      on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      UseBusObject	      off
+      BusObject		      "BusObject"
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      DataType		      "auto"
+      OutDataType	      "fixdt(1,16,0)"
+      OutScaling	      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      SourceOfInitialOutputValue "Dialog"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      CheckFcnCallInpInsideContextMsg off
+      SystemSampleTime	      "-1"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      MinMaxOverflowLogging   "UseLocalSettings"
+    }
+    Block {
+      BlockType		      ToWorkspace
+      VariableName	      "simulink_output"
+      MaxDataPoints	      "1000"
+      Decimation	      "1"
+      SampleTime	      "0"
+      FixptAsFi		      off
+    }
+  }
+  System {
+    Name		    "ieee_80211n"
+    Location		    [0, 72, 1280, 796]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "A4"
+    PaperUnits		    "centimeters"
+    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "100"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    809
+    Block {
+      BlockType		      Reference
+      Name		      "AWGN Channel"
+      SID		      737
+      Ports		      [1, 1]
+      Position		      [725, 66, 820, 124]
+      LibraryVersion	      "1.438"
+      SourceBlock	      "commchan3/AWGN\nChannel"
+      SourceType	      "AWGN Channel"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      seed		      "67"
+      noiseMode		      "Signal to noise ratio  (SNR)"
+      EbNodB		      "EbNo"
+      EsNodB		      "10"
+      SNRdB		      "SNR"
+      bitsPerSym	      "264"
+      Ps		      "1"
+      Tsym		      "0.416"
+      variance		      "1"
+    }
+    Block {
+      BlockType		      MATLABFcn
+      Name		      "CANALE"
+      SID		      86
+      Ports		      [1, 1]
+      Position		      [630, 80, 690, 110]
+      MATLABFcn		      "canalesimple"
+      Output1D		      off
+    }
+    Block {
+      BlockType		      Concatenate
+      Name		      "Concatenate"
+      SID		      35
+      Ports		      [2, 1]
+      Position		      [525, 58, 595, 127]
+      Mode		      "Multidimensional array"
+      ConcatenateDimension    "2"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Decoder"
+      SID		      637
+      Ports		      [2, 1]
+      Position		      [1055, 68, 1160, 172]
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      RTWSystemCode	      "Auto"
+      FunctionWithSeparateData off
+      Opaque		      off
+      RequestExecContextInheritance off
+      MaskHideContents	      off
+      System {
+	Name			"Decoder"
+	Location		[48, 82, 1294, 336]
+	Open			on
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  638
+	  Position		  [25, 53, 55, 67]
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In2"
+	  SID			  640
+	  Position		  [25, 148, 55, 162]
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "BCH Decoder"
+	  SID			  809
+	  Ports			  [1, 1]
+	  Position		  [715, 84, 835, 146]
+	  LibraryVersion	  "1.514"
+	  SourceBlock		  "commblkcod2/BCH Decoder"
+	  SourceType		  "BCH Decoder"
+	  n			  "8"
+	  k			  "4"
+	  specPrimPoly		  off
+	  prPoly		  "de2bi(primpoly(4, 'nodisplay'), 'left-msb')"
+	  specGenPoly		  off
+	  genPoly		  "bchgenpoly(15,5)"
+	  specDisableGenCheck	  off
+	  specPuncture		  off
+	  punctVec		  "[ones(8,1); zeros(2,1)]"
+	  specErasurePort	  off
+	  showNumErr		  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Buffer"
+	  SID			  725
+	  Ports			  [1, 1]
+	  Position		  [575, 90, 625, 140]
+	  LibraryVersion	  "1.402"
+	  SourceBlock		  "dspbuff3/Buffer"
+	  SourceType		  "Buffer"
+	  N			  "8"
+	  V			  "0"
+	  ic			  "0"
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion"
+	  SID			  732
+	  Position		  [1020, 98, 1095, 132]
+	  OutDataTypeMode	  "boolean"
+	  OutDataType		  "fixdt(1, 16)"
+	  OutScaling		  "2^0"
+	  OutDataTypeStr	  "boolean"
+	  RndMeth		  "Floor"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Deinterleaver 2"
+	  SID			  622
+	  Ports			  [1, 1]
+	  Position		  [125, 122, 260, 188]
+	  MinAlgLoopOccurrences	  off
+	  PropExecContextOutsideSubsystem off
+	  RTWSystemCode		  "Auto"
+	  FunctionWithSeparateData off
+	  Opaque		  off
+	  RequestExecContextInheritance	off
+	  MaskHideContents	  off
+	  System {
+	    Name		    "Deinterleaver 2"
+	    Location		    [0, 50, 1280, 774]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "In1"
+	      SID		      623
+	      Position		      [160, 123, 190, 137]
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Display
+	      Name		      "Display"
+	      SID		      625
+	      Ports		      [1]
+	      Position		      [125, 30, 215, 60]
+	      Decimation	      "1"
+	      Lockdown		      off
+	    }
+	    Block {
+	      BlockType		      ForIterator
+	      Name		      "For Iterator"
+	      SID		      626
+	      Ports		      [0, 1]
+	      Position		      [30, 30, 75, 60]
+	      IterationLimit	      "11"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Matrix\nDeinterleaver"
+	      SID		      619
+	      Ports		      [1, 1]
+	      Position		      [215, 103, 295, 157]
+	      LibraryVersion	      "1.60"
+	      SourceBlock	      "commblkintrlv2/Matrix\nDeinterleaver"
+	      SourceType	      "Matrix Deinterleaver"
+	      ShowPortLabels	      "FromPortIcon"
+	      SystemSampleTime	      "-1"
+	      FunctionWithSeparateData off
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      Nrows		      "16"
+	      Ncols		      "13"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      628
+	      Position		      [365, 123, 395, 137]
+	      IconDisplay	      "Port number"
+	      OutDataType	      "fixdt(1, 16)"
+	      OutScaling	      "2^0"
+	    }
+	    Line {
+	      SrcBlock		      "In1"
+	      SrcPort		      1
+	      DstBlock		      "Matrix\nDeinterleaver"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Matrix\nDeinterleaver"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "For Iterator"
+	      SrcPort		      1
+	      DstBlock		      "Display"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Deinterleaver1"
+	  SID			  629
+	  Ports			  [1, 1]
+	  Position		  [125, 27, 260, 93]
+	  MinAlgLoopOccurrences	  off
+	  PropExecContextOutsideSubsystem off
+	  RTWSystemCode		  "Auto"
+	  FunctionWithSeparateData off
+	  Opaque		  off
+	  RequestExecContextInheritance	off
+	  MaskHideContents	  off
+	  System {
+	    Name		    "Deinterleaver1"
+	    Location		    [0, 94, 1280, 818]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "In1"
+	      SID		      630
+	      Position		      [160, 123, 190, 137]
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Display
+	      Name		      "Display"
+	      SID		      631
+	      Ports		      [1]
+	      Position		      [125, 30, 215, 60]
+	      Decimation	      "1"
+	      Lockdown		      off
+	    }
+	    Block {
+	      BlockType		      ForIterator
+	      Name		      "For Iterator"
+	      SID		      632
+	      Ports		      [0, 1]
+	      Position		      [30, 30, 75, 60]
+	      IterationLimit	      "11"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Matrix\nDeinterleaver"
+	      SID		      633
+	      Ports		      [1, 1]
+	      Position		      [215, 103, 295, 157]
+	      LibraryVersion	      "1.60"
+	      SourceBlock	      "commblkintrlv2/Matrix\nDeinterleaver"
+	      SourceType	      "Matrix Deinterleaver"
+	      ShowPortLabels	      "FromPortIcon"
+	      SystemSampleTime	      "-1"
+	      FunctionWithSeparateData off
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      Nrows		      "16"
+	      Ncols		      "13"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      634
+	      Position		      [365, 123, 395, 137]
+	      IconDisplay	      "Port number"
+	      OutDataType	      "fixdt(1, 16)"
+	      OutScaling	      "2^0"
+	    }
+	    Line {
+	      SrcBlock		      "In1"
+	      SrcPort		      1
+	      DstBlock		      "Matrix\nDeinterleaver"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Matrix\nDeinterleaver"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "For Iterator"
+	      SrcPort		      1
+	      DstBlock		      "Display"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Descrambler"
+	  SID			  727
+	  Ports			  [1, 1]
+	  Position		  [900, 93, 980, 137]
+	  LibraryVersion	  "1.80"
+	  SourceBlock		  "commsequence2/Descrambler"
+	  SourceType		  "Descrambler"
+	  M			  "2"
+	  poly			  "[1 0 0 1 0 0 0 1]"
+	  ini_sta		  "[0 0 0 0 0 0 1]"
+	}
+	Block {
+	  BlockType		  MATLABFcn
+	  Name			  "MATLAB Fcn"
+	  SID			  709
+	  Ports			  [1, 1]
+	  Position		  [440, 100, 500, 130]
+	  MATLABFcn		  "dmux"
+	  Output1D		  off
+	}
+	Block {
+	  BlockType		  Concatenate
+	  Name			  "Matrix\nConcatenate"
+	  SID			  665
+	  Ports			  [2, 1]
+	  Position		  [335, 94, 390, 136]
+	  Mode			  "Multidimensional array"
+	  ConcatenateDimension	  "2"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  639
+	  Position		  [1160, 108, 1190, 122]
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  SrcBlock		  "In1"
+	  SrcPort		  1
+	  DstBlock		  "Deinterleaver1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In2"
+	  SrcPort		  1
+	  DstBlock		  "Deinterleaver 2"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Matrix\nConcatenate"
+	  SrcPort		  1
+	  DstBlock		  "MATLAB Fcn"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Deinterleaver 2"
+	  SrcPort		  1
+	  Points		  [5, 0; 0, -30]
+	  DstBlock		  "Matrix\nConcatenate"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "Deinterleaver1"
+	  SrcPort		  1
+	  Points		  [5, 0; 0, 45]
+	  DstBlock		  "Matrix\nConcatenate"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "BCH Decoder"
+	  SrcPort		  1
+	  DstBlock		  "Descrambler"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "MATLAB Fcn"
+	  SrcPort		  1
+	  DstBlock		  "Buffer"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Data Type Conversion"
+	  SrcPort		  1
+	  DstBlock		  "Out1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Descrambler"
+	  SrcPort		  1
+	  DstBlock		  "Data Type Conversion"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Buffer"
+	  SrcPort		  1
+	  DstBlock		  "BCH Decoder"
+	  DstPort		  1
+	}
+	Annotation {
+	  Position		  [674, 484]
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "IQ demapping"
+      SID		      557
+      Ports		      [2, 2]
+      Position		      [890, 69, 985, 171]
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      RTWSystemCode	      "Auto"
+      FunctionWithSeparateData off
+      Opaque		      off
+      RequestExecContextInheritance off
+      MaskHideContents	      off
+      System {
+	Name			"IQ demapping"
+	Location		[12, 50, 1292, 774]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  559
+	  Position		  [25, 83, 55, 97]
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "In2"
+	  SID			  561
+	  Position		  [25, 293, 55, 307]
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Combiner + FFT"
+	  SID			  169
+	  Ports			  [1, 2]
+	  Position		  [510, 22, 650, 178]
+	  MinAlgLoopOccurrences	  off
+	  PropExecContextOutsideSubsystem off
+	  RTWSystemCode		  "Auto"
+	  FunctionWithSeparateData off
+	  Opaque		  off
+	  RequestExecContextInheritance	off
+	  MaskHideContents	  off
+	  System {
+	    Name		    "Combiner + FFT"
+	    Location		    [13, 144, 1293, 868]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "In1"
+	      SID		      171
+	      Position		      [25, 248, 55, 262]
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "FFT"
+	      SID		      144
+	      Ports		      [1, 1]
+	      Position		      [540, 126, 580, 164]
+	      LibraryVersion	      "1.419"
+	      DialogController	      "dspDDGCreate"
+	      DialogControllerArgs    "DataTag0"
+	      SourceBlock	      "dspxfrm3/FFT"
+	      SourceType	      "FFT"
+	      CompMethod	      "Table lookup"
+	      TableOpt		      "NEW"
+	      TableOptActive	      "Speed"
+	      BitRevOrder	      off
+	      InheritFFTLength	      on
+	      FFTLength		      "64"
+	      additionalParams	      off
+	      SkipNorm		      off
+	      allowOverrides	      on
+	      firstCoeffMode	      "Same word length as input"
+	      firstCoeffWordLength    "16"
+	      firstCoeffFracLength    "15"
+	      outputMode	      "Inherit via internal rule"
+	      outputWordLength	      "16"
+	      outputFracLength	      "15"
+	      accumMode		      "Inherit via internal rule"
+	      accumWordLength	      "32"
+	      accumFracLength	      "30"
+	      prodOutputMode	      "Inherit via internal rule"
+	      prodOutputWordLength    "32"
+	      prodOutputFracLength    "30"
+	      roundingMode	      "Floor"
+	      overflowMode	      off
+	      LockScale		      off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "FFT1"
+	      SID		      145
+	      Ports		      [1, 1]
+	      Position		      [540, 401, 580, 439]
+	      LibraryVersion	      "1.419"
+	      DialogController	      "dspDDGCreate"
+	      DialogControllerArgs    "DataTag1"
+	      SourceBlock	      "dspxfrm3/FFT"
+	      SourceType	      "FFT"
+	      CompMethod	      "Table lookup"
+	      TableOpt		      "NEW"
+	      TableOptActive	      "Speed"
+	      BitRevOrder	      off
+	      InheritFFTLength	      on
+	      FFTLength		      "64"
+	      additionalParams	      off
+	      SkipNorm		      off
+	      allowOverrides	      on
+	      firstCoeffMode	      "Same word length as input"
+	      firstCoeffWordLength    "16"
+	      firstCoeffFracLength    "15"
+	      outputMode	      "Inherit via internal rule"
+	      outputWordLength	      "16"
+	      outputFracLength	      "15"
+	      accumMode		      "Inherit via internal rule"
+	      accumWordLength	      "32"
+	      accumFracLength	      "30"
+	      prodOutputMode	      "Inherit via internal rule"
+	      prodOutputWordLength    "32"
+	      prodOutputFracLength    "30"
+	      roundingMode	      "Floor"
+	      overflowMode	      off
+	      LockScale		      off
+	    }
+	    Block {
+	      BlockType		      FrameConversion
+	      Name		      "Frame Conversion"
+	      SID		      551
+	      Ports		      [1, 1]
+	      Position		      [980, 125, 1035, 165]
+	    }
+	    Block {
+	      BlockType		      FrameConversion
+	      Name		      "Frame Conversion1"
+	      SID		      618
+	      Ports		      [1, 1]
+	      Position		      [980, 400, 1035, 440]
+	    }
+	    Block {
+	      BlockType		      Concatenate
+	      Name		      "Matrix\nConcatenate"
+	      SID		      616
+	      Ports		      [52, 1]
+	      Position		      [855, 15, 910, 270]
+	      NumInputs		      "52"
+	      Mode		      "Multidimensional array"
+	    }
+	    Block {
+	      BlockType		      Concatenate
+	      Name		      "Matrix\nConcatenate1"
+	      SID		      617
+	      Ports		      [52, 1]
+	      Position		      [855, 290, 910, 545]
+	      NumInputs		      "52"
+	      Mode		      "Multidimensional array"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Multiport\nSelector"
+	      SID		      137
+	      Ports		      [1, 2]
+	      Position		      [180, 233, 260, 277]
+	      LibraryVersion	      "1.460"
+	      SourceBlock	      "dspindex/Multiport\nSelector"
+	      SourceType	      "Multiport Selector"
+	      rowsOrCols	      "Rows"
+	      idxCellArray	      "{ [1:66],[67:132] }"
+	      idxErrMode	      "Clip Index"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Multiport\nSelector1"
+	      SID		      140
+	      Ports		      [1, 1]
+	      Position		      [390, 123, 470, 167]
+	      LibraryVersion	      "1.460"
+	      SourceBlock	      "dspindex/Multiport\nSelector"
+	      SourceType	      "Multiport Selector"
+	      rowsOrCols	      "Rows"
+	      idxCellArray	      "{ [1:64] }"
+	      idxErrMode	      "Clip Index"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Multiport\nSelector2"
+	      SID		      141
+	      Ports		      [1, 1]
+	      Position		      [390, 398, 470, 442]
+	      LibraryVersion	      "1.460"
+	      SourceBlock	      "dspindex/Multiport\nSelector"
+	      SourceType	      "Multiport Selector"
+	      rowsOrCols	      "Rows"
+	      idxCellArray	      "{ [1:64] }"
+	      idxErrMode	      "Clip Index"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Multiport\nSelector3"
+	      SID		      612
+	      Ports		      [1, 52]
+	      Position		      [700, 15, 780, 270]
+	      LibraryVersion	      "1.460"
+	      SourceBlock	      "dspindex/Multiport\nSelector"
+	      SourceType	      "Multiport Selector"
+	      rowsOrCols	      "Rows"
+	      idxCellArray	      "{2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,27,28,29,37,38,39,40,41,42,4"
+	      "4,45,46,47,48,49,50,51,52,53,54,55,56,58,59,60,61,62,63,64 }"
+	      idxErrMode	      "Clip Index"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Multiport\nSelector4"
+	      SID		      613
+	      Ports		      [1, 52]
+	      Position		      [700, 290, 780, 545]
+	      LibraryVersion	      "1.460"
+	      SourceBlock	      "dspindex/Multiport\nSelector"
+	      SourceType	      "Multiport Selector"
+	      rowsOrCols	      "Rows"
+	      idxCellArray	      "{2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,27,28,29,37,38,39,40,41,42,4"
+	      "4,45,46,47,48,49,50,51,52,53,54,55,56,58,59,60,61,62,63,64 }"
+	      idxErrMode	      "Clip Index"
+	    }
+	    Block {
+	      BlockType		      MATLABFcn
+	      Name		      "RICOMBINATORE"
+	      SID		      123
+	      Ports		      [1, 1]
+	      Position		      [80, 240, 140, 270]
+	      MATLABFcn		      "rxcombiner"
+	      Output1D		      off
+	    }
+	    Block {
+	      BlockType		      ToWorkspace
+	      Name		      "To Workspace"
+	      SID		      793
+	      Ports		      [1]
+	      Position		      [1075, 215, 1135, 245]
+	      VariableName	      "out1"
+	      MaxDataPoints	      "inf"
+	      SampleTime	      "-1"
+	      SaveFormat	      "Array"
+	    }
+	    Block {
+	      BlockType		      ToWorkspace
+	      Name		      "To Workspace1"
+	      SID		      794
+	      Ports		      [1]
+	      Position		      [1075, 475, 1135, 505]
+	      VariableName	      "out2"
+	      MaxDataPoints	      "inf"
+	      SampleTime	      "-1"
+	      SaveFormat	      "Array"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      170
+	      Position		      [1130, 138, 1160, 152]
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out2"
+	      SID		      172
+	      Position		      [1130, 413, 1160, 427]
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      SrcBlock		      "RICOMBINATORE"
+	      SrcPort		      1
+	      DstBlock		      "Multiport\nSelector"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      1
+	      Points		      [65, 0; 0, -100]
+	      DstBlock		      "Multiport\nSelector1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      2
+	      Points		      [65, 0; 0, 155]
+	      DstBlock		      "Multiport\nSelector2"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector1"
+	      SrcPort		      1
+	      DstBlock		      "FFT"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector2"
+	      SrcPort		      1
+	      DstBlock		      "FFT1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "In1"
+	      SrcPort		      1
+	      DstBlock		      "RICOMBINATORE"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Frame Conversion"
+	      SrcPort		      1
+	      Points		      [20, 0]
+	      Branch {
+		DstBlock		"Out1"
+		DstPort			1
+	      }
+	      Branch {
+		DstBlock		"To Workspace"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "FFT"
+	      SrcPort		      1
+	      DstBlock		      "Multiport\nSelector3"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      1
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      2
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      3
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      3
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      4
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      4
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      5
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      5
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      6
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      6
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      7
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      7
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      8
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      8
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      9
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      9
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      10
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      10
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      11
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      11
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      12
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      12
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      13
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      13
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      14
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      14
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      15
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      15
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      16
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      16
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      17
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      17
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      18
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      18
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      19
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      19
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      20
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      20
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      21
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      21
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      22
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      22
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      23
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      23
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      24
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      24
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      25
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      25
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      26
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      26
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      27
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      27
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      28
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      28
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      29
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      29
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      30
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      30
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      31
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      31
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      32
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      32
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      33
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      33
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      34
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      34
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      35
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      35
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      36
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      36
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      37
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      37
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      38
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      38
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      39
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      39
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      40
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      40
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      41
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      41
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      42
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      42
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      43
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      43
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      44
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      44
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      45
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      45
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      46
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      46
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      47
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      47
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      48
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      48
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      49
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      49
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      50
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      50
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      51
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      51
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector3"
+	      SrcPort		      52
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      52
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      1
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      2
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      3
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      3
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      4
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      4
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      5
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      5
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      6
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      6
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      7
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      7
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      8
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      8
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      9
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      9
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      10
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      10
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      11
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      11
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      12
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      12
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      13
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      13
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      14
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      14
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      15
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      15
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      16
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      16
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      17
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      17
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      18
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      18
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      19
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      19
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      20
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      20
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      21
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      21
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      22
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      22
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      23
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      23
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      24
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      24
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      25
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      25
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      26
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      26
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      27
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      27
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      28
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      28
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      29
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      29
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      30
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      30
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      31
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      31
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      32
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      32
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      33
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      33
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      34
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      34
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      35
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      35
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      36
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      36
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      37
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      37
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      38
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      38
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      39
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      39
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      40
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      40
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      41
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      41
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      42
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      42
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      43
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      43
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      44
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      44
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      45
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      45
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      46
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      46
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      47
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      47
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      48
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      48
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      49
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      49
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      50
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      50
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      51
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      51
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector4"
+	      SrcPort		      52
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      52
+	    }
+	    Line {
+	      SrcBlock		      "Matrix\nConcatenate"
+	      SrcPort		      1
+	      DstBlock		      "Frame Conversion"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "FFT1"
+	      SrcPort		      1
+	      DstBlock		      "Multiport\nSelector4"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Matrix\nConcatenate1"
+	      SrcPort		      1
+	      DstBlock		      "Frame Conversion1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Frame Conversion1"
+	      SrcPort		      1
+	      Points		      [20, 0]
+	      Branch {
+		DstBlock		"Out2"
+		DstPort			1
+	      }
+	      Branch {
+		DstBlock		"To Workspace1"
+		DstPort			1
+	      }
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  Concatenate
+	  Name			  "IN combiner"
+	  SID			  431
+	  Ports			  [2, 1]
+	  Position		  [395, 79, 450, 121]
+	  Mode			  "Multidimensional array"
+	}
+	Block {
+	  BlockType		  Concatenate
+	  Name			  "Matrix\nConcatenate1"
+	  SID			  346
+	  Ports			  [2, 1]
+	  Position		  [90, 269, 145, 311]
+	  Mode			  "Multidimensional array"
+	  ConcatenateDimension	  "2"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Multiport\nSelector"
+	  SID			  515
+	  Ports			  [1, 1]
+	  Position		  [270, 117, 330, 153]
+	  LibraryVersion	  "1.460"
+	  SourceBlock		  "dspindex/Multiport\nSelector"
+	  SourceType		  "Multiport Selector"
+	  rowsOrCols		  "Columns"
+	  idxCellArray		  "{ 1:2 }"
+	  idxErrMode		  "Clip Index"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "QAM Demod 1"
+	  SID			  553
+	  Ports			  [1, 1]
+	  Position		  [890, 33, 965, 87]
+	  LibraryVersion	  "1.421"
+	  DialogController	  "commDDGCreate"
+	  DialogControllerArgs	  "DataTag2"
+	  SourceBlock		  "commdigbbndam3/Rectangular QAM\nDemodulator\nBaseband"
+	  SourceType		  "Rectangular QAM Demodulator Baseband"
+	  M			  "16"
+	  PowType		  "Average Power"
+	  MinDist		  "2"
+	  AvgPow		  "5.25"
+	  PeakPow		  "1"
+	  Ph			  "0"
+	  Dec			  "Gray"
+	  Mapping		  "[0:15]"
+	  OutType		  "Bit"
+	  DecType		  "Hard decision"
+	  VarSource		  "Port"
+	  Variance		  "1"
+	  outDtype1		  "Inherit via internal rule"
+	  outDtype2		  "Inherit via internal rule"
+	  derotateFactorDTMode	  "Same word length as input"
+	  derotateFactorWordLen	  "16"
+	  denormFactorDTMode	  "Same word length as input"
+	  denormFactorWordLen	  "16"
+	  prodOutDTMode		  "Inherit via internal rule"
+	  prodOutWordLen	  "32"
+	  prodOutRoundingMode	  "Floor"
+	  prodOutOverflowMode	  "Wrap"
+	  sumDTMode		  "Inherit via internal rule"
+	  sumWordLen		  "32"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "QAM Demod 2"
+	  SID			  554
+	  Ports			  [1, 1]
+	  Position		  [890, 113, 965, 167]
+	  LibraryVersion	  "1.421"
+	  DialogController	  "commDDGCreate"
+	  DialogControllerArgs	  "DataTag3"
+	  SourceBlock		  "commdigbbndam3/Rectangular QAM\nDemodulator\nBaseband"
+	  SourceType		  "Rectangular QAM Demodulator Baseband"
+	  M			  "16"
+	  PowType		  "Average Power"
+	  MinDist		  "2"
+	  AvgPow		  "5.25"
+	  PeakPow		  "1"
+	  Ph			  "0"
+	  Dec			  "Gray"
+	  Mapping		  "[0:15]"
+	  OutType		  "Bit"
+	  DecType		  "Hard decision"
+	  VarSource		  "Port"
+	  Variance		  "1"
+	  outDtype1		  "Inherit via internal rule"
+	  outDtype2		  "Inherit via internal rule"
+	  derotateFactorDTMode	  "Same word length as input"
+	  derotateFactorWordLen	  "16"
+	  denormFactorDTMode	  "Same word length as input"
+	  denormFactorWordLen	  "16"
+	  prodOutDTMode		  "Inherit via internal rule"
+	  prodOutWordLen	  "32"
+	  prodOutRoundingMode	  "Floor"
+	  prodOutOverflowMode	  "Wrap"
+	  sumDTMode		  "Inherit via internal rule"
+	  sumWordLen		  "32"
+	}
+	Block {
+	  BlockType		  MATLABFcn
+	  Name			  "stima canale"
+	  SID			  347
+	  Ports			  [1, 1]
+	  Position		  [170, 275, 230, 305]
+	  MATLABFcn		  "stima_canale"
+	  Output1D		  off
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  558
+	  Position		  [1135, 53, 1165, 67]
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out2"
+	  SID			  560
+	  Position		  [1135, 133, 1165, 147]
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  SrcBlock		  "In1"
+	  SrcPort		  1
+	  Points		  [15, 0]
+	  Branch {
+	    DstBlock		    "Matrix\nConcatenate1"
+	    DstPort		    1
+	  }
+	  Branch {
+	    DstBlock		    "IN combiner"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  SrcBlock		  "Matrix\nConcatenate1"
+	  SrcPort		  1
+	  DstBlock		  "stima canale"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "IN combiner"
+	  SrcPort		  1
+	  DstBlock		  "Combiner + FFT"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "stima canale"
+	  SrcPort		  1
+	  Points		  [10, 0; 0, -155]
+	  DstBlock		  "Multiport\nSelector"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Multiport\nSelector"
+	  SrcPort		  1
+	  Points		  [45, 0]
+	  DstBlock		  "IN combiner"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "Combiner + FFT"
+	  SrcPort		  1
+	  DstBlock		  "QAM Demod 1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Combiner + FFT"
+	  SrcPort		  2
+	  DstBlock		  "QAM Demod 2"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "QAM Demod 1"
+	  SrcPort		  1
+	  DstBlock		  "Out1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "QAM Demod 2"
+	  SrcPort		  1
+	  DstBlock		  "Out2"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In2"
+	  SrcPort		  1
+	  DstBlock		  "Matrix\nConcatenate1"
+	  DstPort		  2
+	}
+	Annotation {
+	  Position		  [659, 104]
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "IQ mapping \n+ codifica"
+      SID		      562
+      Ports		      [1, 2]
+      Position		      [85, 59, 240, 161]
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      RTWSystemCode	      "Auto"
+      FunctionWithSeparateData off
+      Opaque		      off
+      RequestExecContextInheritance off
+      MaskHideContents	      off
+      System {
+	Name			"IQ mapping \n+ codifica"
+	Location		[61, 128, 1237, 737]
+	Open			on
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  565
+	  Position		  [25, 183, 55, 197]
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "BCH \nEncoding"
+	  SID			  1
+	  Ports			  [1, 1]
+	  Position		  [240, 160, 280, 220]
+	  MinAlgLoopOccurrences	  off
+	  PropExecContextOutsideSubsystem off
+	  RTWSystemCode		  "Auto"
+	  FunctionWithSeparateData off
+	  Opaque		  off
+	  RequestExecContextInheritance	off
+	  MaskHideContents	  off
+	  System {
+	    Name		    "BCH \nEncoding"
+	    Location		    [105, 284, 1058, 850]
+	    Open		    on
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "In1"
+	      SID		      2
+	      Position		      [25, 53, 55, 67]
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "BCH Encoder"
+	      SID		      808
+	      Ports		      [1, 1]
+	      Position		      [155, 29, 275, 91]
+	      LibraryVersion	      "1.514"
+	      SourceBlock	      "commblkcod2/BCH Encoder"
+	      SourceType	      "BCH Encoder"
+	      n			      "8"
+	      k			      "4"
+	      specPrimPoly	      off
+	      prPoly		      "de2bi(primpoly(4, 'nodisplay'), 'left-msb')"
+	      specGenPoly	      off
+	      genPoly		      "bchgenpoly(15,5)"
+	      specDisableGenCheck     off
+	      specPuncture	      off
+	      punctVec		      "[ones(8,1); zeros(2,1)]"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      5
+	      Position		      [440, 53, 470, 67]
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      SrcBlock		      "BCH Encoder"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "In1"
+	      SrcPort		      1
+	      DstBlock		      "BCH Encoder"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Generazione flussi \nspaziali"
+	  SID			  7
+	  Ports			  [1, 2]
+	  Position		  [425, 160, 465, 220]
+	  MinAlgLoopOccurrences	  off
+	  PropExecContextOutsideSubsystem off
+	  RTWSystemCode		  "Auto"
+	  FunctionWithSeparateData off
+	  Opaque		  off
+	  RequestExecContextInheritance	off
+	  MaskHideContents	  off
+	  System {
+	    Name		    "Generazione flussi \nspaziali"
+	    Location		    [153, 322, 607, 724]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "In1"
+	      SID		      8
+	      Position		      [25, 43, 55, 57]
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "spatial\nstream\ns(iss)"
+	      SID		      10
+	      Ports		      [1, 2]
+	      Position		      [135, 28, 215, 72]
+	      LibraryVersion	      "1.460"
+	      SourceBlock	      "dspindex/Multiport\nSelector"
+	      SourceType	      "Multiport Selector"
+	      rowsOrCols	      "Rows"
+	      idxCellArray	      "{ 1:4, 5:8 }"
+	      idxErrMode	      "Clip Index"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      11
+	      Position		      [285, 33, 315, 47]
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out2"
+	      SID		      12
+	      Position		      [285, 53, 315, 67]
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      SrcBlock		      "spatial\nstream\ns(iss)"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "spatial\nstream\ns(iss)"
+	      SrcPort		      2
+	      DstBlock		      "Out2"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "In1"
+	      SrcPort		      1
+	      DstBlock		      "spatial\nstream\ns(iss)"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Interleaver"
+	  SID			  13
+	  Ports			  [1, 1]
+	  Position		  [640, 60, 755, 120]
+	  LibraryVersion	  "1.762"
+	  TreatAsAtomicUnit	  on
+	  MinAlgLoopOccurrences	  off
+	  PropExecContextOutsideSubsystem off
+	  RTWSystemCode		  "Auto"
+	  FunctionWithSeparateData off
+	  Opaque		  off
+	  RequestExecContextInheritance	off
+	  MaskHideContents	  off
+	  System {
+	    Name		    "Interleaver"
+	    Location		    [0, 50, 1280, 774]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "In1"
+	      SID		      14
+	      Position		      [110, 103, 140, 117]
+	      IconDisplay	      "Port number"
+	      OutDataType	      "fixdt(1, 16)"
+	      OutScaling	      "2^0"
+	    }
+	    Block {
+	      BlockType		      Display
+	      Name		      "Display"
+	      SID		      15
+	      Ports		      [1]
+	      Position		      [125, 20, 215, 50]
+	      Decimation	      "1"
+	      Lockdown		      off
+	    }
+	    Block {
+	      BlockType		      ForIterator
+	      Name		      "For Iterator"
+	      SID		      16
+	      Ports		      [0, 1]
+	      Position		      [30, 20, 75, 50]
+	      IterationLimit	      "11"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Matrix\nInterleaver"
+	      SID		      17
+	      Ports		      [1, 1]
+	      Position		      [205, 83, 285, 137]
+	      LibraryVersion	      "1.60"
+	      SourceBlock	      "commblkintrlv2/Matrix\nInterleaver"
+	      SourceType	      "Matrix Interleaver"
+	      ShowPortLabels	      "FromPortIcon"
+	      SystemSampleTime	      "-1"
+	      FunctionWithSeparateData off
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      Nrows		      "16"
+	      Ncols		      "13"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      18
+	      Position		      [360, 103, 390, 117]
+	      IconDisplay	      "Port number"
+	      OutDataType	      "fixdt(1, 16)"
+	      OutScaling	      "2^0"
+	    }
+	    Line {
+	      SrcBlock		      "In1"
+	      SrcPort		      1
+	      DstBlock		      "Matrix\nInterleaver"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Matrix\nInterleaver"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "For Iterator"
+	      SrcPort		      1
+	      DstBlock		      "Display"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Interleaver1"
+	  SID			  19
+	  Ports			  [1, 1]
+	  Position		  [645, 266, 755, 324]
+	  LibraryVersion	  "1.762"
+	  TreatAsAtomicUnit	  on
+	  MinAlgLoopOccurrences	  off
+	  PropExecContextOutsideSubsystem off
+	  RTWSystemCode		  "Auto"
+	  FunctionWithSeparateData off
+	  Opaque		  off
+	  RequestExecContextInheritance	off
+	  MaskHideContents	  off
+	  System {
+	    Name		    "Interleaver1"
+	    Location		    [759, 359, 1257, 659]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "In1"
+	      SID		      20
+	      Position		      [110, 103, 140, 117]
+	      IconDisplay	      "Port number"
+	      OutDataType	      "fixdt(1, 16)"
+	      OutScaling	      "2^0"
+	    }
+	    Block {
+	      BlockType		      Display
+	      Name		      "Display"
+	      SID		      21
+	      Ports		      [1]
+	      Position		      [145, 20, 235, 50]
+	      Decimation	      "1"
+	      Lockdown		      off
+	    }
+	    Block {
+	      BlockType		      ForIterator
+	      Name		      "For Iterator"
+	      SID		      22
+	      Ports		      [0, 1]
+	      Position		      [30, 20, 75, 50]
+	      IterationLimit	      "11"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Matrix\nInterleaver"
+	      SID		      23
+	      Ports		      [1, 1]
+	      Position		      [205, 83, 285, 137]
+	      LibraryVersion	      "1.60"
+	      SourceBlock	      "commblkintrlv2/Matrix\nInterleaver"
+	      SourceType	      "Matrix Interleaver"
+	      ShowPortLabels	      "FromPortIcon"
+	      SystemSampleTime	      "-1"
+	      FunctionWithSeparateData off
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      Nrows		      "16"
+	      Ncols		      "13"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      24
+	      Position		      [360, 103, 390, 117]
+	      IconDisplay	      "Port number"
+	      OutDataType	      "fixdt(1, 16)"
+	      OutScaling	      "2^0"
+	    }
+	    Line {
+	      SrcBlock		      "In1"
+	      SrcPort		      1
+	      DstBlock		      "Matrix\nInterleaver"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "Matrix\nInterleaver"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "For Iterator"
+	      SrcPort		      1
+	      DstBlock		      "Display"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Mapping1"
+	  SID			  25
+	  Ports			  [1, 1]
+	  Position		  [840, 60, 880, 120]
+	  MinAlgLoopOccurrences	  off
+	  PropExecContextOutsideSubsystem off
+	  RTWSystemCode		  "Auto"
+	  FunctionWithSeparateData off
+	  Opaque		  off
+	  RequestExecContextInheritance	off
+	  MaskHideContents	  off
+	  System {
+	    Name		    "Mapping1"
+	    Location		    [35, 526, 749, 643]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "In1"
+	      SID		      26
+	      Position		      [25, 48, 55, 62]
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "mod"
+	      SID		      28
+	      Ports		      [1, 1]
+	      Position		      [140, 29, 215, 81]
+	      LibraryVersion	      "1.421"
+	      DialogController	      "commDDGCreate"
+	      DialogControllerArgs    "DataTag4"
+	      SourceBlock	      "commdigbbndam3/Rectangular QAM\nModulator\nBaseband"
+	      SourceType	      "Rectangular QAM Modulator Baseband"
+	      M			      "16"
+	      InType		      "Bit"
+	      Enc		      "Gray"
+	      Mapping		      "[0:15]"
+	      PowType		      "Average Power"
+	      MinDist		      "2"
+	      AvgPow		      "5.25"
+	      PeakPow		      "1"
+	      Ph		      "0"
+	      outDtype		      "double"
+	      outWordLen	      "16"
+	      outUDDataType	      "sfix(16)"
+	      outFracLenMode	      "Best precision"
+	      outFracLen	      "15"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      29
+	      Position		      [240, 48, 270, 62]
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      SrcBlock		      "mod"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "In1"
+	      SrcPort		      1
+	      DstBlock		      "mod"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Mapping2"
+	  SID			  30
+	  Ports			  [1, 1]
+	  Position		  [840, 265, 880, 325]
+	  MinAlgLoopOccurrences	  off
+	  PropExecContextOutsideSubsystem off
+	  RTWSystemCode		  "Auto"
+	  FunctionWithSeparateData off
+	  Opaque		  off
+	  RequestExecContextInheritance	off
+	  MaskHideContents	  off
+	  System {
+	    Name		    "Mapping2"
+	    Location		    [35, 482, 749, 599]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "In1"
+	      SID		      31
+	      Position		      [25, 48, 55, 62]
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "mod"
+	      SID		      33
+	      Ports		      [1, 1]
+	      Position		      [140, 29, 215, 81]
+	      LibraryVersion	      "1.421"
+	      DialogController	      "commDDGCreate"
+	      DialogControllerArgs    "DataTag5"
+	      SourceBlock	      "commdigbbndam3/Rectangular QAM\nModulator\nBaseband"
+	      SourceType	      "Rectangular QAM Modulator Baseband"
+	      M			      "16"
+	      InType		      "Bit"
+	      Enc		      "Gray"
+	      Mapping		      "[0:15]"
+	      PowType		      "Average Power"
+	      MinDist		      "2"
+	      AvgPow		      "5.25"
+	      PeakPow		      "1"
+	      Ph		      "0"
+	      outDtype		      "double"
+	      outWordLen	      "16"
+	      outUDDataType	      "sfix(16)"
+	      outFracLenMode	      "Best precision"
+	      outFracLen	      "15"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      34
+	      Position		      [240, 48, 270, 62]
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      SrcBlock		      "In1"
+	      SrcPort		      1
+	      DstBlock		      "mod"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "mod"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "NCBPS1"
+	  SID			  39
+	  Ports			  [1, 1]
+	  Position		  [535, 68, 565, 112]
+	  LibraryVersion	  "1.402"
+	  SourceBlock		  "dspbuff3/Buffer"
+	  SourceType		  "Buffer"
+	  N			  "208"
+	  V			  "0"
+	  ic			  "0"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "NCBPS2"
+	  SID			  40
+	  Ports			  [1, 1]
+	  Position		  [535, 273, 565, 317]
+	  LibraryVersion	  "1.402"
+	  SourceBlock		  "dspbuff3/Buffer"
+	  SourceType		  "Buffer"
+	  N			  "208"
+	  V			  "0"
+	  ic			  "0"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Scrambler"
+	  SID			  81
+	  Ports			  [1, 1]
+	  Position		  [80, 168, 160, 212]
+	  LibraryVersion	  "1.80"
+	  SourceBlock		  "commsequence2/Scrambler"
+	  SourceType		  "Scrambler"
+	  M			  "2"
+	  poly			  "[1 0 0 1 0 0 0 1]"
+	  ini_sta		  "[0 0 0 0 0 0 1]"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Spacestream1"
+	  SID			  563
+	  Position		  [915, 83, 945, 97]
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Spacestream 2"
+	  SID			  564
+	  Position		  [915, 288, 945, 302]
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  SrcBlock		  "Scrambler"
+	  SrcPort		  1
+	  DstBlock		  "BCH \nEncoding"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Generazione flussi \nspaziali"
+	  SrcPort		  2
+	  Points		  [35, 0; 0, 90]
+	  DstBlock		  "NCBPS2"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "NCBPS1"
+	  SrcPort		  1
+	  DstBlock		  "Interleaver"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "NCBPS2"
+	  SrcPort		  1
+	  DstBlock		  "Interleaver1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Generazione flussi \nspaziali"
+	  SrcPort		  1
+	  Points		  [35, 0; 0, -85]
+	  DstBlock		  "NCBPS1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Interleaver1"
+	  SrcPort		  1
+	  DstBlock		  "Mapping2"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Interleaver"
+	  SrcPort		  1
+	  DstBlock		  "Mapping1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Mapping1"
+	  SrcPort		  1
+	  DstBlock		  "Spacestream1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Mapping2"
+	  SrcPort		  1
+	  DstBlock		  "Spacestream 2"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "In1"
+	  SrcPort		  1
+	  DstBlock		  "Scrambler"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "BCH \nEncoding"
+	  SrcPort		  1
+	  DstBlock		  "Generazione flussi \nspaziali"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Performance Analysis"
+      SID		      763
+      Ports		      [2]
+      Position		      [810, 413, 975, 557]
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      RTWSystemCode	      "Auto"
+      FunctionWithSeparateData off
+      Opaque		      off
+      RequestExecContextInheritance off
+      MaskHideContents	      off
+      System {
+	Name			"Performance Analysis"
+	Location		[53, 181, 1116, 469]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "RX sequence"
+	  SID			  765
+	  Position		  [725, 68, 755, 82]
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "TX sequence"
+	  SID			  764
+	  Position		  [25, 43, 55, 57]
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  ToWorkspace
+	  Name			  "BER"
+	  SID			  738
+	  Ports			  [1]
+	  Position		  [915, 50, 975, 80]
+	  VariableName		  "prestaz"
+	  MaxDataPoints		  "1"
+	  SampleTime		  "-1"
+	  SaveFormat		  "Array"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Buffer"
+	  SID			  720
+	  Ports			  [1, 1]
+	  Position		  [180, 25, 230, 75]
+	  LibraryVersion	  "1.402"
+	  SourceBlock		  "dspbuff3/Buffer"
+	  SourceType		  "Buffer"
+	  N			  "208"
+	  V			  "0"
+	  ic			  "0"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Buffer1"
+	  SID			  736
+	  Ports			  [1, 1]
+	  Position		  [345, 25, 395, 75]
+	  LibraryVersion	  "1.402"
+	  SourceBlock		  "dspbuff3/Buffer"
+	  SourceType		  "Buffer"
+	  N			  "4"
+	  V			  "0"
+	  ic			  "0"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Error Rate\nCalculation"
+	  SID			  730
+	  Ports			  [2, 1]
+	  Position		  [780, 37, 855, 88]
+	  LibraryVersion	  "1.308"
+	  SourceBlock		  "commsink2/Error Rate\nCalculation"
+	  SourceType		  "Error Rate Calculation"
+	  N			  "0"
+	  st_delay		  "0"
+	  cp_mode		  "Entire frame"
+	  subframe		  "[]"
+	  PMode			  "Port"
+	  WsName		  "ErrorVec"
+	  RsMode2		  off
+	  stop			  off
+	  numErr		  "maxNumErrs"
+	  maxBits		  "maxNumBits"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Unbuffer"
+	  SID			  719
+	  Ports			  [1, 1]
+	  Position		  [90, 26, 140, 74]
+	  LibraryVersion	  "1.402"
+	  SourceBlock		  "dspbuff3/Unbuffer"
+	  SourceType		  "Unbuffer"
+	  ic			  "0"
+	}
+	Line {
+	  SrcBlock		  "Unbuffer"
+	  SrcPort		  1
+	  DstBlock		  "Buffer"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Buffer"
+	  SrcPort		  1
+	  DstBlock		  "Buffer1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Buffer1"
+	  SrcPort		  1
+	  DstBlock		  "Error Rate\nCalculation"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Error Rate\nCalculation"
+	  SrcPort		  1
+	  DstBlock		  "BER"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "TX sequence"
+	  SrcPort		  1
+	  DstBlock		  "Unbuffer"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "RX sequence"
+	  SrcPort		  1
+	  DstBlock		  "Error Rate\nCalculation"
+	  DstPort		  2
+	}
+	Annotation {
+	  Position		  [218, 55]
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "STBC + OFDM"
+      SID		      41
+      Ports		      [2, 3]
+      Position		      [290, 59, 475, 161]
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      RTWSystemCode	      "Auto"
+      FunctionWithSeparateData off
+      Opaque		      off
+      RequestExecContextInheritance off
+      MaskHideContents	      off
+      System {
+	Name			"STBC + OFDM"
+	Location		[2, 315, 1282, 1039]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "16-QAM:\ntx1"
+	  SID			  42
+	  Position		  [35, 48, 65, 62]
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "16-QAM:\ntx2"
+	  SID			  43
+	  Position		  [35, 228, 65, 242]
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Cyclic prefix"
+	  SID			  100
+	  Ports			  [1, 1]
+	  Position		  [315, 33, 395, 77]
+	  LibraryVersion	  "1.460"
+	  SourceBlock		  "dspindex/Multiport\nSelector"
+	  SourceType		  "Multiport Selector"
+	  rowsOrCols		  "Rows"
+	  idxCellArray		  "{[1:64 2 1]'}"
+	  idxErrMode		  "Clip Index"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Cyclic prefix 1"
+	  SID			  101
+	  Ports			  [1, 1]
+	  Position		  [315, 213, 395, 257]
+	  LibraryVersion	  "1.460"
+	  SourceBlock		  "dspindex/Multiport\nSelector"
+	  SourceType		  "Multiport Selector"
+	  rowsOrCols		  "Rows"
+	  idxCellArray		  "{[1:64 2 1]'}"
+	  idxErrMode		  "Clip Index"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "IFFT1"
+	  SID			  45
+	  Ports			  [1, 1]
+	  Position		  [210, 36, 250, 74]
+	  LibraryVersion	  "1.419"
+	  DialogController	  "dspDDGCreate"
+	  DialogControllerArgs	  "DataTag6"
+	  SourceBlock		  "dspxfrm3/IFFT"
+	  SourceType		  "IFFT"
+	  CompMethod		  "Table lookup"
+	  TableOpt		  "NEW"
+	  TableOptActive	  "Speed"
+	  BitRevOrder		  off
+	  cs_in			  off
+	  SkipNorm		  on
+	  InheritFFTLength	  on
+	  FFTLength		  "64"
+	  mode			  "Complex"
+	  outSamplingMode	  "Frame based"
+	  additionalParams	  off
+	  allowOverrides	  on
+	  firstCoeffMode	  "Same word length as input"
+	  firstCoeffWordLength	  "16"
+	  firstCoeffFracLength	  "15"
+	  outputMode		  "Inherit via internal rule"
+	  outputWordLength	  "16"
+	  outputFracLength	  "15"
+	  accumMode		  "Inherit via internal rule"
+	  accumWordLength	  "32"
+	  accumFracLength	  "30"
+	  prodOutputMode	  "Inherit via internal rule"
+	  prodOutputWordLength	  "32"
+	  prodOutputFracLength	  "30"
+	  roundingMode		  "Floor"
+	  overflowMode		  off
+	  LockScale		  off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "IFFT2"
+	  SID			  46
+	  Ports			  [1, 1]
+	  Position		  [210, 216, 250, 254]
+	  LibraryVersion	  "1.419"
+	  DialogController	  "dspDDGCreate"
+	  DialogControllerArgs	  "DataTag7"
+	  SourceBlock		  "dspxfrm3/IFFT"
+	  SourceType		  "IFFT"
+	  CompMethod		  "Table lookup"
+	  TableOpt		  "NEW"
+	  TableOptActive	  "Speed"
+	  BitRevOrder		  off
+	  cs_in			  off
+	  SkipNorm		  on
+	  InheritFFTLength	  on
+	  FFTLength		  "64"
+	  mode			  "Complex"
+	  outSamplingMode	  "Frame based"
+	  additionalParams	  off
+	  allowOverrides	  on
+	  firstCoeffMode	  "Same word length as input"
+	  firstCoeffWordLength	  "16"
+	  firstCoeffFracLength	  "15"
+	  outputMode		  "Inherit via internal rule"
+	  outputWordLength	  "16"
+	  outputFracLength	  "15"
+	  accumMode		  "Inherit via internal rule"
+	  accumWordLength	  "32"
+	  accumFracLength	  "30"
+	  prodOutputMode	  "Inherit via internal rule"
+	  prodOutputWordLength	  "32"
+	  prodOutputFracLength	  "30"
+	  roundingMode		  "Floor"
+	  overflowMode		  off
+	  LockScale		  off
+	}
+	Block {
+	  BlockType		  Concatenate
+	  Name			  "Matrix\nConcatenate"
+	  SID			  339
+	  Ports			  [2, 1]
+	  Position		  [740, 444, 795, 486]
+	  Mode			  "Multidimensional array"
+	}
+	Block {
+	  BlockType		  Concatenate
+	  Name			  "Matrix\nConcatenate1"
+	  SID			  539
+	  Ports			  [2, 1]
+	  Position		  [740, 44, 795, 86]
+	  Mode			  "Multidimensional array"
+	}
+	Block {
+	  BlockType		  Concatenate
+	  Name			  "Matrix\nConcatenate2"
+	  SID			  540
+	  Ports			  [2, 1]
+	  Position		  [660, 224, 715, 266]
+	  Mode			  "Multidimensional array"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "OFDMtx\ncompleto\nt1"
+	  SID			  49
+	  Ports			  [1, 1]
+	  Position		  [100, 205, 140, 265]
+	  MinAlgLoopOccurrences	  off
+	  PropExecContextOutsideSubsystem off
+	  RTWSystemCode		  "Auto"
+	  FunctionWithSeparateData off
+	  Opaque		  off
+	  RequestExecContextInheritance	off
+	  MaskHideContents	  off
+	  System {
+	    Name		    "OFDMtx\ncompleto\nt1"
+	    Location		    [42, 138, 1322, 862]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "In1"
+	      SID		      50
+	      Position		      [25, 223, 55, 237]
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      53
+	      Position		      [390, 30, 420, 60]
+	      Value		      "0"
+	      OutDataType	      "fixdt(1, 16)"
+	      OutScaling	      "2^0"
+	    }
+	    Block {
+	      BlockType		      Concatenate
+	      Name		      "Matrix\nConcatenate"
+	      SID		      55
+	      Ports		      [64, 1]
+	      Position		      [465, 32, 600, 473]
+	      NumInputs		      "64"
+	      Mode		      "Multidimensional array"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Multiport\nSelector"
+	      SID		      56
+	      Ports		      [1, 52]
+	      Position		      [180, 51, 310, 404]
+	      LibraryVersion	      "1.460"
+	      SourceBlock	      "dspindex/Multiport\nSelector"
+	      SourceType	      "Multiport Selector"
+	      rowsOrCols	      "Rows"
+	      idxCellArray	      "{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,"
+	      "34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52}"
+	      idxErrMode	      "Clip Index"
+	    }
+	    Block {
+	      BlockType		      ToWorkspace
+	      Name		      "To Workspace"
+	      SID		      792
+	      Ports		      [1]
+	      Position		      [135, 500, 195, 530]
+	      VariableName	      "in2"
+	      MaxDataPoints	      "inf"
+	      SampleTime	      "-1"
+	      SaveFormat	      "Array"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      57
+	      Position		      [1075, 248, 1105, 262]
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      SrcBlock		      "In1"
+	      SrcPort		      1
+	      Points		      [40, 0]
+	      Branch {
+		DstBlock		"Multiport\nSelector"
+		DstPort			1
+	      }
+	      Branch {
+		Points			[0, 285]
+		DstBlock		"To Workspace"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      Points		      [10, 0; 0, 50]
+	      Branch {
+		DstBlock		"Matrix\nConcatenate"
+		DstPort			1
+	      }
+	      Branch {
+		Points			[0, 35]
+		Branch {
+		  DstBlock		  "Matrix\nConcatenate"
+		  DstPort		  8
+		}
+		Branch {
+		  Points		  [0, 65]
+		  Branch {
+		    Points		    [0, 5]
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    22
+		  }
+		  Branch {
+		    Points		    [0, 45]
+		    Branch {
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    30
+		    }
+		    Branch {
+		    Points		    [0, 5]
+		    Branch {
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    31
+		    }
+		    Branch {
+		    Points		    [0, 5]
+		    Branch {
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    32
+		    }
+		    Branch {
+		    Points		    [0, 5]
+		    Branch {
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    33
+		    }
+		    Branch {
+		    Points		    [0, 5]
+		    Branch {
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    34
+		    }
+		    Branch {
+		    Points		    [0, 5]
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    35
+		    }
+		    Branch {
+		    Points		    [0, 10]
+		    Branch {
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    36
+		    }
+		    Branch {
+		    Points		    [0, 35]
+		    Branch {
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    43
+		    }
+		    Branch {
+		    Points		    [0, 70]
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    57
+		    }
+		    }
+		    }
+		    }
+		    }
+		    }
+		    }
+		  }
+		}
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      1
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      2
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      3
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      3
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      4
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      4
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      5
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      5
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      6
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      6
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      7
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      7
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      9
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      8
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      10
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      9
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      11
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      10
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      12
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      11
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      13
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      12
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      14
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      13
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      15
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      14
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      16
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      15
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      17
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      16
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      18
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      17
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      19
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      18
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      20
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      19
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      21
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      20
+	      Points		      [70, 0; 0, 10]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      23
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      21
+	      Points		      [70, 0; 0, 10]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      24
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      22
+	      Points		      [70, 0; 0, 10]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      25
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      23
+	      Points		      [70, 0; 0, 10]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      26
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      24
+	      Points		      [70, 0; 0, 10]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      27
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      25
+	      Points		      [70, 0; 0, 10]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      28
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      26
+	      Points		      [70, 0; 0, 10]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      29
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      27
+	      Points		      [70, 0; 0, 45]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      37
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      28
+	      Points		      [70, 0; 0, 45]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      38
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      29
+	      Points		      [70, 0; 0, 45]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      39
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      30
+	      Points		      [70, 0; 0, 45]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      40
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      31
+	      Points		      [70, 0; 0, 45]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      41
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      32
+	      Points		      [70, 0; 0, 45]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      42
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      33
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      44
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      34
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      45
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      35
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      46
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      36
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      47
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      37
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      48
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      38
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      49
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      39
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      50
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      40
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      51
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      41
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      52
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      42
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      53
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      43
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      54
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      44
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      55
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      45
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      56
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      46
+	      Points		      [70, 0; 0, 55]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      58
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      47
+	      Points		      [70, 0; 0, 55]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      59
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      48
+	      Points		      [70, 0; 0, 55]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      60
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      49
+	      Points		      [70, 0; 0, 55]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      61
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      50
+	      Points		      [70, 0; 0, 55]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      62
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      51
+	      Points		      [70, 0; 0, 55]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      63
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      52
+	      Points		      [70, 0; 0, 55]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      64
+	    }
+	    Line {
+	      SrcBlock		      "Matrix\nConcatenate"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "OFDMtx\nt0"
+	  SID			  67
+	  Ports			  [1, 1]
+	  Position		  [100, 25, 140, 85]
+	  MinAlgLoopOccurrences	  off
+	  PropExecContextOutsideSubsystem off
+	  RTWSystemCode		  "Auto"
+	  FunctionWithSeparateData off
+	  Opaque		  off
+	  RequestExecContextInheritance	off
+	  MaskHideContents	  off
+	  System {
+	    Name		    "OFDMtx\nt0"
+	    Location		    [-4, 275, 1276, 999]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "A4"
+	    PaperUnits		    "centimeters"
+	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "In1"
+	      SID		      68
+	      Position		      [25, 223, 55, 237]
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      71
+	      Position		      [390, 30, 420, 60]
+	      Value		      "0"
+	      OutDataType	      "fixdt(1, 16)"
+	      OutScaling	      "2^0"
+	    }
+	    Block {
+	      BlockType		      Concatenate
+	      Name		      "Matrix\nConcatenate"
+	      SID		      73
+	      Ports		      [64, 1]
+	      Position		      [465, 32, 600, 473]
+	      NumInputs		      "64"
+	      Mode		      "Multidimensional array"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Multiport\nSelector"
+	      SID		      74
+	      Ports		      [1, 52]
+	      Position		      [180, 51, 310, 404]
+	      LibraryVersion	      "1.460"
+	      SourceBlock	      "dspindex/Multiport\nSelector"
+	      SourceType	      "Multiport Selector"
+	      rowsOrCols	      "Rows"
+	      idxCellArray	      "{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,"
+	      "34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52}"
+	      idxErrMode	      "Clip Index"
+	    }
+	    Block {
+	      BlockType		      ToWorkspace
+	      Name		      "To Workspace"
+	      SID		      791
+	      Ports		      [1]
+	      Position		      [160, 445, 220, 475]
+	      VariableName	      "in1"
+	      MaxDataPoints	      "inf"
+	      SampleTime	      "-1"
+	      SaveFormat	      "Array"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      76
+	      Position		      [1075, 248, 1105, 262]
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      Points		      [10, 0; 0, 50]
+	      Branch {
+		DstBlock		"Matrix\nConcatenate"
+		DstPort			1
+	      }
+	      Branch {
+		Points			[0, 35]
+		Branch {
+		  DstBlock		  "Matrix\nConcatenate"
+		  DstPort		  8
+		}
+		Branch {
+		  Points		  [0, 65]
+		  Branch {
+		    Points		    [0, 5]
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    22
+		  }
+		  Branch {
+		    Points		    [0, 45]
+		    Branch {
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    30
+		    }
+		    Branch {
+		    Points		    [0, 5]
+		    Branch {
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    31
+		    }
+		    Branch {
+		    Points		    [0, 5]
+		    Branch {
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    32
+		    }
+		    Branch {
+		    Points		    [0, 5]
+		    Branch {
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    33
+		    }
+		    Branch {
+		    Points		    [0, 5]
+		    Branch {
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    34
+		    }
+		    Branch {
+		    Points		    [0, 5]
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    35
+		    }
+		    Branch {
+		    Points		    [0, 10]
+		    Branch {
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    36
+		    }
+		    Branch {
+		    Points		    [0, 35]
+		    Branch {
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    43
+		    }
+		    Branch {
+		    Points		    [0, 70]
+		    DstBlock		    "Matrix\nConcatenate"
+		    DstPort		    57
+		    }
+		    }
+		    }
+		    }
+		    }
+		    }
+		    }
+		  }
+		}
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      1
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      2
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      3
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      3
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      4
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      4
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      5
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      5
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      6
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      6
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      7
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      7
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      9
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      8
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      10
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      9
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      11
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      10
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      12
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      11
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      13
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      12
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      14
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      13
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      15
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      14
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      16
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      15
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      17
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      16
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      18
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      17
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      19
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      18
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      20
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      19
+	      Points		      [70, 0; 0, 5]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      21
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      20
+	      Points		      [70, 0; 0, 10]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      23
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      21
+	      Points		      [70, 0; 0, 10]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      24
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      22
+	      Points		      [70, 0; 0, 10]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      25
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      23
+	      Points		      [70, 0; 0, 10]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      26
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      24
+	      Points		      [70, 0; 0, 10]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      27
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      25
+	      Points		      [70, 0; 0, 10]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      28
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      26
+	      Points		      [70, 0; 0, 10]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      29
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      27
+	      Points		      [70, 0; 0, 45]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      37
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      28
+	      Points		      [70, 0; 0, 45]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      38
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      29
+	      Points		      [70, 0; 0, 45]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      39
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      30
+	      Points		      [70, 0; 0, 45]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      40
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      31
+	      Points		      [70, 0; 0, 45]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      41
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      32
+	      Points		      [70, 0; 0, 45]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      42
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      33
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      44
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      34
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      45
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      35
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      46
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      36
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      47
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      37
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      48
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      38
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      49
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      39
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      50
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      40
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      51
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      41
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      52
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      42
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      53
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      43
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      54
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      44
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      55
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      45
+	      Points		      [70, 0; 0, 50]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      56
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      46
+	      Points		      [70, 0; 0, 55]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      58
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      47
+	      Points		      [70, 0; 0, 55]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      59
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      48
+	      Points		      [70, 0; 0, 55]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      60
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      49
+	      Points		      [70, 0; 0, 55]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      61
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      50
+	      Points		      [70, 0; 0, 55]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      62
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      51
+	      Points		      [70, 0; 0, 55]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      63
+	    }
+	    Line {
+	      SrcBlock		      "Multiport\nSelector"
+	      SrcPort		      52
+	      Points		      [70, 0; 0, 55]
+	      DstBlock		      "Matrix\nConcatenate"
+	      DstPort		      64
+	    }
+	    Line {
+	      SrcBlock		      "In1"
+	      SrcPort		      1
+	      Points		      [75, 0]
+	      Branch {
+		DstBlock		"Multiport\nSelector"
+		DstPort			1
+	      }
+	      Branch {
+		Points			[0, 230]
+		DstBlock		"To Workspace"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "Matrix\nConcatenate"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  MATLABFcn
+	  Name			  "conj1"
+	  SID			  541
+	  Ports			  [1, 1]
+	  Position		  [565, 110, 625, 140]
+	  MATLABFcn		  "coniugo"
+	  Output1D		  off
+	}
+	Block {
+	  BlockType		  MATLABFcn
+	  Name			  "conj2"
+	  SID			  97
+	  Ports			  [1, 1]
+	  Position		  [565, 300, 625, 330]
+	  MATLABFcn		  "coniugo2"
+	  Output1D		  off
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "OFDM:\ntx1"
+	  SID			  78
+	  Position		  [1005, 58, 1035, 72]
+	  IconDisplay		  "Port number"
+	  OutDataType		  "fixdt(1, 16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "OFDM:\ntx2"
+	  SID			  79
+	  Position		  [1005, 238, 1035, 252]
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "fixdt(1, 16)"
+	  OutScaling		  "2^0"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Training"
+	  SID			  340
+	  Position		  [1005, 458, 1035, 472]
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	  OutDataType		  "fixdt(1, 16)"
+	  OutScaling		  "2^0"
+	}
+	Line {
+	  SrcBlock		  "OFDMtx\nt0"
+	  SrcPort		  1
+	  DstBlock		  "IFFT1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "OFDMtx\ncompleto\nt1"
+	  SrcPort		  1
+	  DstBlock		  "IFFT2"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "16-QAM:\ntx1"
+	  SrcPort		  1
+	  DstBlock		  "OFDMtx\nt0"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "16-QAM:\ntx2"
+	  SrcPort		  1
+	  DstBlock		  "OFDMtx\ncompleto\nt1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "IFFT1"
+	  SrcPort		  1
+	  DstBlock		  "Cyclic prefix"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "IFFT2"
+	  SrcPort		  1
+	  DstBlock		  "Cyclic prefix 1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Cyclic prefix 1"
+	  SrcPort		  1
+	  Points		  [70, 0]
+	  Branch {
+	    Points		    [0, 240]
+	    DstBlock		    "Matrix\nConcatenate"
+	    DstPort		    2
+	  }
+	  Branch {
+	    Points		    [80, 0]
+	    Branch {
+	      DstBlock		      "conj2"
+	      DstPort		      1
+	    }
+	    Branch {
+	      DstBlock		      "Matrix\nConcatenate2"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Line {
+	  SrcBlock		  "Matrix\nConcatenate"
+	  SrcPort		  1
+	  DstBlock		  "Training"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "Cyclic prefix"
+	  SrcPort		  1
+	  Points		  [105, 0]
+	  Branch {
+	    Points		    [40, 0]
+	    Branch {
+	      DstBlock		      "Matrix\nConcatenate1"
+	      DstPort		      1
+	    }
+	    Branch {
+	      Points		      [0, 70]
+	      DstBlock		      "conj1"
+	      DstPort		      1
+	    }
+	  }
+	  Branch {
+	    Points		    [0, 400]
+	    DstBlock		    "Matrix\nConcatenate"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  SrcBlock		  "Matrix\nConcatenate1"
+	  SrcPort		  1
+	  DstBlock		  "OFDM:\ntx1"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "conj1"
+	  SrcPort		  1
+	  Points		  [10, 0; 0, 130]
+	  DstBlock		  "Matrix\nConcatenate2"
+	  DstPort		  2
+	}
+	Line {
+	  SrcBlock		  "Matrix\nConcatenate2"
+	  SrcPort		  1
+	  DstBlock		  "OFDM:\ntx2"
+	  DstPort		  1
+	}
+	Line {
+	  SrcBlock		  "conj2"
+	  SrcPort		  1
+	  Points		  [95, 0]
+	  DstBlock		  "Matrix\nConcatenate1"
+	  DstPort		  2
+	}
+	Annotation {
+	  Position		  [387, 357]
+	}
+	Annotation {
+	  Position		  [556, 389]
+	}
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Source"
+      SID		      82
+      Ports		      [0, 1]
+      Position		      [15, 89, 50, 131]
+      LibraryVersion	      "1.111"
+      FontName		      "Arial"
+      SourceBlock	      "commrandsrc2/Random Integer\nGenerator"
+      SourceType	      "Random Integer Generator"
+      ShowPortLabels	      "FromPortIcon"
+      SystemSampleTime	      "-1"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      mul		      "2"
+      seed		      "37"
+      Ts		      "2e-3"
+      frameBased	      on
+      sampPerFrame	      "4"
+      orient		      off
+      outDataType	      "boolean"
+    }
+    Line {
+      SrcBlock		      "IQ mapping \n+ codifica"
+      SrcPort		      2
+      DstBlock		      "STBC + OFDM"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "IQ mapping \n+ codifica"
+      SrcPort		      1
+      DstBlock		      "STBC + OFDM"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Concatenate"
+      SrcPort		      1
+      DstBlock		      "CANALE"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Source"
+      SrcPort		      1
+      Points		      [10, 0]
+      Branch {
+	DstBlock		"IQ mapping \n+ codifica"
+	DstPort			1
+      }
+      Branch {
+	Labels			[0, 0]
+	Points			[0, 410]
+	DstBlock		"Performance Analysis"
+	DstPort			2
+      }
+    }
+    Line {
+      SrcBlock		      "STBC + OFDM"
+      SrcPort		      1
+      DstBlock		      "Concatenate"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "STBC + OFDM"
+      SrcPort		      2
+      DstBlock		      "Concatenate"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "STBC + OFDM"
+      SrcPort		      3
+      DstBlock		      "IQ demapping"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "CANALE"
+      SrcPort		      1
+      DstBlock		      "AWGN Channel"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "IQ demapping"
+      SrcPort		      1
+      DstBlock		      "Decoder"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "IQ demapping"
+      SrcPort		      2
+      DstBlock		      "Decoder"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "Decoder"
+      SrcPort		      1
+      Points		      [20, 0; 0, 225; -410, 0; 0, 105]
+      DstBlock		      "Performance Analysis"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "AWGN Channel"
+      SrcPort		      1
+      DstBlock		      "IQ demapping"
+      DstPort		      1
+    }
+    Annotation {
+      Position		      [612, 271]
+    }
+  }
+}
+MatData {
+  NumRecords		  8
+  DataRecord {
+    Tag			    DataTag7
+    Data		    "  %)30     .    8     8    (     0         %    \"     $    !     0         .    ,     8    (    !     "
+    "     %    \"     $    $     0         0  0 249&5 "
+  }
+  DataRecord {
+    Tag			    DataTag6
+    Data		    "  %)30     .    8     8    (     0         %    \"     $    !     0         .    ,     8    (    !     "
+    "     %    \"     $    $     0         0  0 249&5 "
+  }
+  DataRecord {
+    Tag			    DataTag5
+    Data		    "  %)30     .    <     8    (     0         %    \"     $    !     0         .    0     8    (    !     "
+    "     %    \"     $    -     0         0    #0   %)104U-;V1U;&%T;W(    "
+  }
+  DataRecord {
+    Tag			    DataTag4
+    Data		    "  %)30     .    <     8    (     0         %    \"     $    !     0         .    0     8    (    !     "
+    "     %    \"     $    -     0         0    #0   %)104U-;V1U;&%T;W(    "
+  }
+  DataRecord {
+    Tag			    DataTag3
+    Data		    "  %)30     .    <     8    (     0         %    \"     $    !     0         .    0     8    (    !     "
+    "     %    \"     $    /     0         0    #P   %)104U$96UO9'5L871O<@ "
+  }
+  DataRecord {
+    Tag			    DataTag2
+    Data		    "  %)30     .    <     8    (     0         %    \"     $    !     0         .    0     8    (    !     "
+    "     %    \"     $    /     0         0    #P   %)104U$96UO9'5L871O<@ "
+  }
+  DataRecord {
+    Tag			    DataTag1
+    Data		    "  %)30     .    8     8    (     0         %    \"     $    !     0         .    ,     8    (    !     "
+    "     %    \"     $    #     0         0  , 1D94  "
+  }
+  DataRecord {
+    Tag			    DataTag0
+    Data		    "  %)30     .    8     8    (     0         %    \"     $    !     0         .    ,     8    (    !     "
+    "     %    \"     $    #     0         0  , 1D94  "
+  }
+}

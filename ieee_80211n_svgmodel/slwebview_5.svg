@@ -1,0 +1,503 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<?xml-stylesheet href='./slwebview.css' type='text/css' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' onload='initialize(evt)' zoomAndPan='disable' id='canvas.ieee_80211n/Performance Analysis' class='canvas' display='inline' x='0' y='0' height='95%' width='100%' preserveAspectRatio='xMinYMin meet' original_viewBox='5.5 20 974.5 93' viewBox='5.5 20 974.5 93'> 
+<script type='text/javascript' xlink:href='./slwebview.js' />
+<script type='text/javascript' xlink:href='./id_mapping.js' />
+  <title id='title.ieee_80211n/Performance Analysis'>Performance Analysis</title>
+<rect id='background.ieee_80211n/Performance Analysis' x='-4085.5' y='-4071' width='9146' height='8250' pointer-events='none' fill='rgb(100%,100%,100%) ' />
+<g></g>
+<g display='none' id='prop.ieee_80211n/Performance Analysis/Unbuffer' class='proptable' pointer-events='none' extent_Height='18.8' extent_Width='29' preferred_X='145' preferred_Y='31'>
+  <rect x='0' y='0' width='29' height='18.8' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ic</text>
+  <text stroke='none' x='18' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='0' width='29' height='18.8' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/Performance Analysis/Unbuffer' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/Performance Analysis/Unbuffer'>Unbuffer</title>
+<g><rect x='90' y='26' width='50' height='48' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='95.5' y='84' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Unbuffer</text>
+</g>
+</g>
+<g><line x1='120' y1='61' x2='123' y2='61' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='123' y1='61' x2='123' y2='60' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='123' y1='60' x2='125' y2='61' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='125' y1='61' x2='123' y2='62' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='123' y1='62' x2='123' y2='61' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='109' y1='58' x2='109' y2='61' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='109' y1='61' x2='118' y2='61' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='118' y1='61' x2='115' y2='64' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='115' y1='64' x2='118' y2='61' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='118' y1='61' x2='115' y2='58' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='102' y1='34' x2='116' y2='34' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='116' y1='34' x2='116' y2='56' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='116' y1='56' x2='102' y2='56' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='102' y1='56' x2='102' y2='34' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='105' y1='37' x2='112' y2='37' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='105' y1='41' x2='112' y2='41' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='105' y1='44' x2='112' y2='44' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='105' y1='47' x2='112' y2='47' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='105' y1='51' x2='112' y2='51' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='125' y1='61' x2='126' y2='61' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='126' y1='61' x2='126' y2='60' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='126' y1='60' x2='128' y2='61' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='128' y1='61' x2='126' y2='62' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='126' y1='62' x2='126' y2='61' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='128' y1='61' x2='130' y2='61' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='130' y1='61' x2='130' y2='60' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='130' y1='60' x2='132' y2='61' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='132' y1='61' x2='130' y2='62' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='130' y1='62' x2='130' y2='61' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='132' y1='61' x2='132' y2='61' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+<line x1='132' y1='61' x2='133' y2='61' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_43)' />
+</g>
+<g><rect x='90' y='26' width='50' height='48' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.ieee_80211n/Performance Analysis/Error Rate Calculation' class='proptable' pointer-events='none' extent_Height='62.8' extent_Width='103' preferred_X='860' preferred_Y='42'>
+  <rect x='0' y='0' width='103' height='62.8' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>N</text>
+  <text stroke='none' x='49' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='16.8' width='103' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>st_delay</text>
+  <text stroke='none' x='49' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>cp_mode</text>
+  <text stroke='none' x='49' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Entire frame</text>
+  <rect x='0' y='34.4' width='103' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>PMode</text>
+  <text stroke='none' x='49' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port</text>
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RsMode2</text>
+  <text stroke='none' x='49' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='52' width='103' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='57.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>stop</text>
+  <text stroke='none' x='49' y='57.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='0' width='103' height='62.8' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/Performance Analysis/Error Rate Calculation' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/Performance Analysis/Error Rate Calculation'>Error Rate Calculation</title>
+<g><rect x='780' y='37' width='75' height='51' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='794' y='98' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Error Rate</text>
+</g>
+<g><text stroke='none' x='791.5' y='108' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Calculation</text>
+</g>
+</g>
+<g><g><text stroke='none' x='791.5' y='60.5' xml:space='preserve' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_44)' font-family='Helvetica'>  Error Rate</text>
+</g>
+<g><text stroke='none' x='789' y='70.5' xml:space='preserve' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_44)' font-family='Helvetica'>  Calculation</text>
+</g>
+<g><text stroke='none' x='783' y='53.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_44)' font-family='Helvetica'>Tx</text>
+</g>
+<g><text stroke='none' x='783' y='78.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_44)' font-family='Helvetica'>Rx</text>
+</g>
+<g></g>
+<g></g>
+</g>
+<g><rect x='780' y='37' width='75' height='51' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.ieee_80211n/Performance Analysis/Buffer1' class='proptable' pointer-events='none' extent_Height='36.4' extent_Width='29' preferred_X='400' preferred_Y='30'>
+  <rect x='0' y='0' width='29' height='36.4' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>N</text>
+  <text stroke='none' x='18' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>4</text>
+  <rect x='0' y='16.8' width='29' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>V</text>
+  <text stroke='none' x='18' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ic</text>
+  <text stroke='none' x='18' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='0' width='29' height='36.4' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/Performance Analysis/Buffer1' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/Performance Analysis/Buffer1'>Buffer1</title>
+<g><rect x='345' y='25' width='50' height='50' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='353.5' y='85' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Buffer1</text>
+</g>
+</g>
+<g><line x1='353' y1='32' x2='360' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='360' y1='32' x2='360' y2='31' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='360' y1='31' x2='362' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='362' y1='32' x2='360' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='360' y1='32' x2='360' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='362' y1='32' x2='364' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='364' y1='32' x2='364' y2='31' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='364' y1='31' x2='366' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='366' y1='32' x2='364' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='364' y1='32' x2='364' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='359' y1='32' x2='359' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='359' y1='32' x2='360' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='366' y1='32' x2='367' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='367' y1='32' x2='367' y2='31' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='367' y1='31' x2='369' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='369' y1='32' x2='367' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='367' y1='32' x2='367' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='371' y1='32' x2='369' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='369' y1='32' x2='371' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='371' y1='32' x2='371' y2='31' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='371' y1='31' x2='373' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='373' y1='32' x2='371' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='371' y1='32' x2='371' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='373' y1='32' x2='376' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='376' y1='32' x2='376' y2='42' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='376' y1='42' x2='373' y2='39' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='373' y1='39' x2='376' y2='42' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='376' y1='42' x2='379' y2='39' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='369' y1='44' x2='383' y2='44' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='383' y1='44' x2='383' y2='67' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='383' y1='67' x2='369' y2='67' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='369' y1='67' x2='369' y2='44' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='373' y1='47' x2='380' y2='47' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='373' y1='51' x2='380' y2='51' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='373' y1='54' x2='380' y2='54' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='373' y1='58' x2='380' y2='58' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+<line x1='373' y1='61' x2='380' y2='61' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_45)' />
+</g>
+<g><rect x='345' y='25' width='50' height='50' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.ieee_80211n/Performance Analysis/Buffer' class='proptable' pointer-events='none' extent_Height='36.4' extent_Width='39' preferred_X='235' preferred_Y='30'>
+  <rect x='0' y='0' width='39' height='36.4' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>N</text>
+  <text stroke='none' x='18' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>208</text>
+  <rect x='0' y='16.8' width='39' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>V</text>
+  <text stroke='none' x='18' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>ic</text>
+  <text stroke='none' x='18' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='0' width='39' height='36.4' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/Performance Analysis/Buffer' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/Performance Analysis/Buffer'>Buffer</title>
+<g><rect x='180' y='25' width='50' height='50' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='191.5' y='85' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Buffer</text>
+</g>
+</g>
+<g><line x1='188' y1='32' x2='195' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='195' y1='32' x2='195' y2='31' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='195' y1='31' x2='197' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='197' y1='32' x2='195' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='195' y1='32' x2='195' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='197' y1='32' x2='199' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='199' y1='32' x2='199' y2='31' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='199' y1='31' x2='201' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='201' y1='32' x2='199' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='199' y1='32' x2='199' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='194' y1='32' x2='194' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='194' y1='32' x2='195' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='201' y1='32' x2='202' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='202' y1='32' x2='202' y2='31' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='202' y1='31' x2='204' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='204' y1='32' x2='202' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='202' y1='32' x2='202' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='206' y1='32' x2='204' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='204' y1='32' x2='206' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='206' y1='32' x2='206' y2='31' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='206' y1='31' x2='208' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='208' y1='32' x2='206' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='206' y1='32' x2='206' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='208' y1='32' x2='211' y2='32' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='211' y1='32' x2='211' y2='42' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='211' y1='42' x2='208' y2='39' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='208' y1='39' x2='211' y2='42' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='211' y1='42' x2='214' y2='39' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='204' y1='44' x2='218' y2='44' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='218' y1='44' x2='218' y2='67' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='218' y1='67' x2='204' y2='67' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='204' y1='67' x2='204' y2='44' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='208' y1='47' x2='215' y2='47' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='208' y1='51' x2='215' y2='51' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='208' y1='54' x2='215' y2='54' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='208' y1='58' x2='215' y2='58' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+<line x1='208' y1='61' x2='215' y2='61' stroke='rgb(0%,0%,0%)' stroke-width='1' clip-path='url(#clip_rect_46)' />
+</g>
+<g><rect x='180' y='25' width='50' height='50' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.ieee_80211n/Performance Analysis/BER' class='proptable' pointer-events='none' extent_Height='62.8' extent_Width='107' preferred_X='980' preferred_Y='55'>
+  <rect x='0' y='0' width='107' height='62.8' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VariableName</text>
+  <text stroke='none' x='71' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>prestaz</text>
+  <rect x='0' y='16.8' width='107' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MaxDataPoints</text>
+  <text stroke='none' x='71' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>1</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Decimation</text>
+  <text stroke='none' x='71' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>1</text>
+  <rect x='0' y='34.4' width='107' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='71' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SaveFormat</text>
+  <text stroke='none' x='71' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Array</text>
+  <rect x='0' y='52' width='107' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='57.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>FixptAsFi</text>
+  <text stroke='none' x='71' y='57.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='0' width='107' height='62.8' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/Performance Analysis/BER' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/Performance Analysis/BER'>BER</title>
+<g><rect x='915' y='50' width='60' height='30' stroke='none' fill='rgb(100%,100%,100%)' />
+<g><text stroke='none' x='935' y='90' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BER</text>
+</g>
+</g>
+<g><g><text stroke='none' x='928' y='68.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_47)' font-family='Helvetica'>prestaz</text>
+</g>
+</g>
+<g><rect x='915' y='50' width='60' height='30' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+</g>
+<g display='none' id='prop.ieee_80211n/Performance Analysis/TX sequence' class='proptable' pointer-events='none' extent_Height='150.8' extent_Width='191' preferred_X='74.5' preferred_Y='48'>
+  <rect x='0' y='0' width='191' height='150.8' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port</text>
+  <text stroke='none' x='136' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>2</text>
+  <rect x='0' y='16.8' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconDisplay</text>
+  <text stroke='none' x='136' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port number</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UseBusObject</text>
+  <text stroke='none' x='136' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='34.4' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='136' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusOutputAsStruct</text>
+  <text stroke='none' x='136' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='52' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='57.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>PortDimensions</text>
+  <text stroke='none' x='136' y='57.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='66.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VarSizeSig</text>
+  <text stroke='none' x='136' y='66.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit</text>
+  <rect x='0' y='69.6' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='75.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='136' y='75.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='84.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='136' y='84.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='87.2' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='136' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='101.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='136' y='101.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: auto</text>
+  <rect x='0' y='104.8' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='110.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='136' y='110.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='119.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SignalType</text>
+  <text stroke='none' x='136' y='119.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='122.4' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='128.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='136' y='128.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByDelayingOutsideSignal</text>
+  <text stroke='none' x='136' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='140' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='145.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByCopyingInsideSignal</text>
+  <text stroke='none' x='136' y='145.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='0' width='191' height='150.8' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/Performance Analysis/TX sequence' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/Performance Analysis/TX sequence'>TX sequence</title>
+<g><rect x='25' y='43' width='30' height='14' rx='6.77419' ry='6.77419' stroke='none' fill='rgb(100%,100%,100%)' />
+<rect x='25' y='43' width='30' height='14' rx='6.77419' ry='6.77419' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+<g><text stroke='none' x='10.5' y='67' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>TX sequence</text>
+</g>
+</g>
+<g><g><text stroke='none' x='37' y='53.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_48)' font-family='Helvetica'>2</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.ieee_80211n/Performance Analysis/RX sequence' class='proptable' pointer-events='none' extent_Height='150.8' extent_Width='191' preferred_X='775.5' preferred_Y='73'>
+  <rect x='0' y='0' width='191' height='150.8' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port</text>
+  <text stroke='none' x='136' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>1</text>
+  <rect x='0' y='16.8' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>IconDisplay</text>
+  <text stroke='none' x='136' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Port number</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>UseBusObject</text>
+  <text stroke='none' x='136' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='34.4' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='136' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusObject</text>
+  <text stroke='none' x='5' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>BusOutputAsStruct</text>
+  <text stroke='none' x='136' y='49' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='52' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='57.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>PortDimensions</text>
+  <text stroke='none' x='136' y='57.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='66.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>VarSizeSig</text>
+  <text stroke='none' x='136' y='66.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit</text>
+  <rect x='0' y='69.6' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='75.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SampleTime</text>
+  <text stroke='none' x='136' y='75.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>-1</text>
+  <text stroke='none' x='5' y='84.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMin</text>
+  <text stroke='none' x='136' y='84.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <rect x='0' y='87.2' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutMax</text>
+  <text stroke='none' x='136' y='93' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>[]</text>
+  <text stroke='none' x='5' y='101.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>OutDataTypeStr</text>
+  <text stroke='none' x='136' y='101.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Inherit: auto</text>
+  <rect x='0' y='104.8' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='110.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LockScale</text>
+  <text stroke='none' x='136' y='110.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='119.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SignalType</text>
+  <text stroke='none' x='136' y='119.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <rect x='0' y='122.4' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='128.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>SamplingMode</text>
+  <text stroke='none' x='136' y='128.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>auto</text>
+  <text stroke='none' x='5' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByDelayingOutsideSignal</text>
+  <text stroke='none' x='136' y='137' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='140' width='191' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='145.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>LatchByCopyingInsideSignal</text>
+  <text stroke='none' x='136' y='145.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <rect x='0' y='0' width='191' height='150.8' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/Performance Analysis/RX sequence' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/Performance Analysis/RX sequence'>RX sequence</title>
+<g><rect x='725' y='68' width='30' height='14' rx='6.77419' ry='6.77419' stroke='none' fill='rgb(100%,100%,100%)' />
+<rect x='725' y='68' width='30' height='14' rx='6.77419' ry='6.77419' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+<g><text stroke='none' x='709.5' y='92' font-size='10' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RX sequence</text>
+</g>
+</g>
+<g><g><text stroke='none' x='737' y='78.5' font-size='10' fill='rgb(0%,0%,0%)' clip-path='url(#clip_rect_49)' font-family='Helvetica'>1</text>
+</g>
+</g>
+<g></g>
+</g>
+<g display='none' id='prop.ieee_80211n/Performance Analysis/_uniq_id_47' class='proptable' pointer-events='none' extent_Height='45.2' extent_Width='148' preferred_X='185' preferred_Y='50'>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='124' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='16.8' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='124' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='124' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='34.4' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='124' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/Performance Analysis/_uniq_id_47' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/Performance Analysis/_uniq_id_47'>line</title>
+<line x1='140' y1='50' x2='145' y2='50' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='175' y1='50' x2='165' y2='50' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='170,45 170,55 180,50 170,45 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='143,50 145,50 165,50 167,50 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.ieee_80211n/Performance Analysis/_uniq_id_48' class='proptable' pointer-events='none' extent_Height='45.2' extent_Width='148' preferred_X='350' preferred_Y='50'>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='124' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='16.8' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='124' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='124' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='34.4' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='124' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/Performance Analysis/_uniq_id_48' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/Performance Analysis/_uniq_id_48'>line</title>
+<line x1='230' y1='50' x2='235' y2='50' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='340' y1='50' x2='330' y2='50' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='335,45 335,55 345,50 335,45 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='233,50 235,50 330,50 332,50 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.ieee_80211n/Performance Analysis/_uniq_id_49' class='proptable' pointer-events='none' extent_Height='45.2' extent_Width='148' preferred_X='785' preferred_Y='50'>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='124' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='16.8' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='124' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='124' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='34.4' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='124' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/Performance Analysis/_uniq_id_49' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/Performance Analysis/_uniq_id_49'>line</title>
+<line x1='395' y1='50' x2='400' y2='50' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='775' y1='50' x2='765' y2='50' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='770,45 770,55 780,50 770,45 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='398,50 400,50 765,50 767,50 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.ieee_80211n/Performance Analysis/_uniq_id_50' class='proptable' pointer-events='none' extent_Height='45.2' extent_Width='148' preferred_X='920' preferred_Y='65'>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='124' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='16.8' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='124' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='124' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='34.4' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='124' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/Performance Analysis/_uniq_id_50' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/Performance Analysis/_uniq_id_50'>line</title>
+<line x1='855' y1='65' x2='860' y2='65' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='910' y1='65' x2='900' y2='65' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='905,60 905,70 915,65 905,60 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='858,65 860,65 900,65 902,65 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.ieee_80211n/Performance Analysis/_uniq_id_51' class='proptable' pointer-events='none' extent_Height='45.2' extent_Width='148' preferred_X='95' preferred_Y='50'>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='124' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='16.8' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='124' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='124' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='34.4' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='124' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/Performance Analysis/_uniq_id_51' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/Performance Analysis/_uniq_id_51'>line</title>
+<line x1='55' y1='50' x2='60' y2='50' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='85' y1='50' x2='75' y2='50' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='80,45 80,55 90,50 80,45 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='58,50 60,50 75,50 77,50 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<g display='none' id='prop.ieee_80211n/Performance Analysis/_uniq_id_52' class='proptable' pointer-events='none' extent_Height='45.2' extent_Width='148' preferred_X='785' preferred_Y='75'>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='none' fill='rgb(100%,100%,100%)'  filter='url(#drop-shadow)' />
+  <text stroke='none' x='5' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>testPoint</text>
+  <text stroke='none' x='124' y='13.8' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='16.8' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>signalPropagation</text>
+  <text stroke='none' x='124' y='22.6' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>off</text>
+  <text stroke='none' x='5' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>MustResolveToSignalObject</text>
+  <text stroke='none' x='124' y='31.4' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>0</text>
+  <rect x='0' y='34.4' width='148' height='8.8' stroke='none' fill='rgb(90.1961%,90.1961%,90.1961%)' />
+  <text stroke='none' x='5' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>RTWStorageClass</text>
+  <text stroke='none' x='124' y='40.2' font-size='9' fill='rgb(0%,0%,0%)' font-family='Helvetica'>Auto</text>
+  <rect x='0' y='0' width='148' height='45.2' rx='5' ry='5' stroke='rgb(0%,0%,0%)' stroke-width='1' fill='none' />
+</g>
+<g id='ieee_80211n/Performance Analysis/_uniq_id_52' linkid='' onclick='changeSys(evt)' onmouseover='showPropAndHighlight(evt)' onmouseout='hidePropAndUnhighlight(evt)'>
+  <title id='title.ieee_80211n/Performance Analysis/_uniq_id_52'>line</title>
+<line x1='755' y1='75' x2='760' y2='75' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<g></g>
+<line x1='775' y1='75' x2='765' y2='75' stroke='rgb(0%,0%,0%)' stroke-width='1' />
+<polygon points='770,70 770,80 780,75 770,70 ' stroke='none' fill='rgb(0%,0%,0%)' />
+<g></g>
+<polyline points='758,75 760,75 765,75 767,75 ' stroke='rgb(0%,0%,0%)' stroke-width='1' fill = 'none'/>
+</g>
+<defs>
+  <clipPath id='clip_rect_43'><rect x='90' y='26' width='50' height='48' /></clipPath>
+  <clipPath id='clip_rect_44'><rect x='780' y='37' width='75' height='51' /></clipPath>
+  <clipPath id='clip_rect_45'><rect x='345' y='25' width='50' height='50' /></clipPath>
+  <clipPath id='clip_rect_46'><rect x='180' y='25' width='50' height='50' /></clipPath>
+  <clipPath id='clip_rect_47'><rect x='915' y='50' width='60' height='30' /></clipPath>
+  <clipPath id='clip_rect_48'><rect x='25' y='43' width='30' height='14' /></clipPath>
+  <clipPath id='clip_rect_49'><rect x='725' y='68' width='30' height='14' /></clipPath>
+</defs>
+</svg>
